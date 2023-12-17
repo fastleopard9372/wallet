@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/investment/public/css/slick-theme.css" />
+    <link rel="stylesheet" href="/investment/public/css/slick.css" />
+    <link rel="stylesheet" href="/investment/public/css/project/project.css" />
+
+    <title>Project Detail</title>
+  </head>
+  <body>
+    <!-- <section class="detail_nav">
+      <a href="/investment/projects/" style="display: flex; align-items: center">
+        <svg
+          fill="#333333"
+          height="20px"
+          width="20px"
+          version="1.1"
+          id="Layer_1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 0 512 512"
+          xml:space="preserve"
+          stroke="#ffffff"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+          <g id="SVGRepo_iconCarrier">
+            <g>
+              <g>
+                <path
+                  d="M224.98,255.988L394.488,86.48c9.571-9.571,14.843-22.297,14.843-35.831c0-13.535-5.271-26.26-14.843-35.831 c-19.758-19.756-51.904-19.758-71.662,0l-205.34,205.34c-19.757,19.757-19.757,51.904,0,71.662l205.34,205.339 c9.571,9.571,22.295,14.842,35.83,14.842c13.535,0,26.26-5.271,35.831-14.841c9.571-9.571,14.843-22.296,14.843-35.831 c0-13.535-5.271-26.26-14.843-35.831L224.98,255.988z M380.062,482.734c-5.717,5.718-13.321,8.867-21.406,8.867 c-8.085,0-15.688-3.149-21.405-8.867l-205.34-205.339c-11.803-11.804-11.803-31.01,0-42.813l205.341-205.34 c5.901-5.901,13.653-8.853,21.405-8.853c7.752,0,15.505,2.952,21.405,8.854c5.718,5.718,8.868,13.32,8.868,21.406 s-3.15,15.689-8.868,21.407l-176.719,176.72c-3.983,3.984-3.983,10.442,0,14.425l176.719,176.721 c5.718,5.718,8.868,13.321,8.868,21.406C388.929,469.413,385.78,477.016,380.062,482.734z"
+                ></path>
+              </g>
+            </g>
+            <g>
+              <g>
+                <path
+                  d="M175.503,219.486c-3.955-4.014-10.413-4.059-14.424-0.105l-14.248,14.043c-4.013,3.954-4.06,10.413-0.105,14.424 c1.996,2.025,4.631,3.039,7.265,3.039c2.586,0,5.172-0.977,7.159-2.934l14.248-14.043 C179.411,229.956,179.458,223.498,175.503,219.486z"
+                ></path>
+              </g>
+            </g>
+            <g>
+              <g>
+                <path
+                  d="M359.702,37.694c-3.955-4.013-10.415-4.057-14.424-0.104L187.835,192.773c-4.012,3.954-4.058,10.413-0.104,14.424 c1.996,2.025,4.631,3.039,7.265,3.039c2.585,0,5.172-0.977,7.159-2.935L359.597,52.119 C363.61,48.164,363.657,41.707,359.702,37.694z"
+                ></path>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </a>
+      <div class="detail_nav_search">
+        <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              d="M11 6C13.7614 6 16 8.23858 16 11M16.6588 16.6549L21 21M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z"
+              stroke="#333333"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+          </g>
+        </svg>
+        <input type="text" name="detail_search" id="detail_search" />
+        <svg
+          fill="#333333"
+          width="20px"
+          height="20px"
+          viewBox="0 0 1920 1920"
+          xmlns="http://www.w3.org/2000/svg"
+          stroke="#333333"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              d="M960.315 96.818c-186.858 0-338.862 152.003-338.862 338.861v484.088c0 186.858 152.004 338.862 338.862 338.862 186.858 0 338.861-152.004 338.861-338.862V435.68c0-186.858-152.003-338.861-338.861-338.861M427.818 709.983V943.41c0 293.551 238.946 532.497 532.497 532.497 293.55 0 532.496-238.946 532.496-532.497V709.983h96.818V943.41c0 330.707-256.438 602.668-580.9 627.471l-.006 252.301h242.044V1920H669.862v-96.818h242.043l-.004-252.3C587.438 1546.077 331 1274.116 331 943.41V709.983h96.818ZM960.315 0c240.204 0 435.679 195.475 435.679 435.68v484.087c0 240.205-195.475 435.68-435.68 435.68-240.204 0-435.679-195.475-435.679-435.68V435.68C524.635 195.475 720.11 0 960.315 0Z"
+              fill-rule="evenodd"
+            ></path>
+          </g>
+        </svg>
+      </div>
+      <svg
+        fill="#333333"
+        height="28px"
+        width="28px"
+        version="1.1"
+        id="Capa_1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 0 492.066 492.066"
+        xml:space="preserve"
+      >
+        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+        <g id="SVGRepo_iconCarrier">
+          <g>
+            <g id="Icons_38_">
+              <path
+                d="M485.128,100.778c-7.25-10.449-19.168-16.69-31.902-16.69H212.607c-8.981,0-16.272,7.288-16.272,16.278 c0,8.987,7.291,16.275,16.272,16.275h240.618c2.051,0,3.99,1,5.167,2.71c1.178,1.685,1.448,3.846,0.731,5.77L414.03,246.495 c-0.906,2.454-3.29,4.108-5.899,4.108H155.277L115.001,78.741c-5.01-21.338-23.812-36.25-45.747-36.25h-44.84 C10.92,42.491,0,53.42,0,66.906C0,80.395,10.92,91.32,24.414,91.32h43.38l54.232,231.405 c4.908,20.918,23.108,35.574,44.474,36.146c-12.56,9.117-20.791,23.812-20.791,40.516c0,27.722,22.46,50.189,50.181,50.189 c27.706,0,50.176-22.468,50.176-50.189c0-16.642-8.198-31.281-20.661-40.412h93.623c-12.481,9.131-20.679,23.77-20.679,40.412 c0,27.722,22.471,50.189,50.175,50.189c27.723,0,50.198-22.468,50.198-50.189c0-16.642-8.204-31.281-20.678-40.412h22.757 c13.495,0,24.416-10.928,24.416-24.415c0-13.486-10.92-24.414-24.416-24.414H169.232l-6.326-26.99h245.226 c16.131,0,30.771-10.164,36.399-25.313l45.11-121.396C494.059,124.523,492.374,111.182,485.128,100.778z"
+              ></path>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </section> -->
+
+    <section class="detail_rec_nav">
+      <a href="/investment/projects/" style="display: flex; align-items: center">
+        <svg
+          width="20px"
+          height="20px"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          stroke="#ffffff"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M11.7071 4.29289C12.0976 4.68342 12.0976 5.31658 11.7071 5.70711L6.41421 11H20C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13H6.41421L11.7071 18.2929C12.0976 18.6834 12.0976 19.3166 11.7071 19.7071C11.3166 20.0976 10.6834 20.0976 10.2929 19.7071L3.29289 12.7071C3.10536 12.5196 3 12.2652 3 12C3 11.7348 3.10536 11.4804 3.29289 11.2929L10.2929 4.29289C10.6834 3.90237 11.3166 3.90237 11.7071 4.29289Z"
+              fill="#ffffff"
+            ></path>
+          </g>
+        </svg>
+        <span class="ml10">Back</span>
+      </a>
+      <div class="detail_rec_nav_icons">
+        <svg
+          width="20px"
+          height="20px"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          stroke="#000000"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              d="M15.7955 15.8111L21 21M18 10.5C18 14.6421 14.6421 18 10.5 18C6.35786 18 3 14.6421 3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5Z"
+              stroke="#ffffff"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+          </g>
+        </svg>
+        <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              d="M8 5C8 2.79086 9.79086 1 12 1C14.2091 1 16 2.79086 16 5V12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12V5Z"
+              fill="#ffffff"
+            ></path>
+            <path
+              d="M6.25 11.8438V12C6.25 13.525 6.8558 14.9875 7.93414 16.0659C9.01247 17.1442 10.475 17.75 12 17.75C13.525 17.75 14.9875 17.1442 16.0659 16.0659C17.1442 14.9875 17.75 13.525 17.75 12V11.8438C17.75 11.2915 18.1977 10.8438 18.75 10.8438H19.25C19.8023 10.8438 20.25 11.2915 20.25 11.8437V12C20.25 14.188 19.3808 16.2865 17.8336 17.8336C16.5842 19.0831 14.9753 19.8903 13.25 20.1548V22C13.25 22.5523 12.8023 23 12.25 23H11.75C11.1977 23 10.75 22.5523 10.75 22V20.1548C9.02471 19.8903 7.41579 19.0831 6.16637 17.8336C4.61919 16.2865 3.75 14.188 3.75 12V11.8438C3.75 11.2915 4.19772 10.8438 4.75 10.8438H5.25C5.80228 10.8438 6.25 11.2915 6.25 11.8438Z"
+              fill="#ffffff"
+            ></path>
+          </g>
+        </svg>
+        <svg
+          fill="#ffffff"
+          width="20px"
+          height="20px"
+          viewBox="0 0 24 24"
+          id="3793e727-e93b-490e-b0f8-a3cbbd02a3c2"
+          data-name="Livello 1"
+          xmlns="http://www.w3.org/2000/svg"
+          stroke="#ffffff"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+          <g id="SVGRepo_iconCarrier">
+            <title>prime</title>
+            <g id="0ae23c62-20d0-4480-afe0-4ecdc1333c09" data-name="cart">
+              <path
+                d="M22.82,5H7L6.19,1.76a1,1,0,0,0-1-.76H0V5H3L4.72,15.33a2,2,0,0,0,2,1.67H20.31a2,2,0,0,0,2-1.67l1.53-9.16A1,1,0,0,0,22.82,5Z"
+              ></path>
+              <circle cx="7.5" cy="20.5" r="2.5"></circle>
+              <circle cx="19.5" cy="20.5" r="2.5"></circle>
+            </g>
+          </g>
+        </svg>
+      </div>
+    </section>
+
+    <section>
+      <div class="project_info">
+        <h1 class="fontcolor">G-miner</h1>
+        <div class="project_info_rating">
+          <div>
+            <img src="/investment/public/images/project/star.svg" alt="star" />
+            <img src="/investment/public/images/project/star.svg" alt="star" />
+            <img src="/investment/public/images/project/star.svg" alt="star" />
+            <img src="/investment/public/images/project/star.svg" alt="star" />
+            <img src="/investment/public/images/project/star.svg" alt="star" />
+          </div>
+          <img src="/investment/public/images/project/insurance.png" alt="detail01" />
+        </div>
+      </div>
+
+      <div class="detail_images">
+        <img src="/investment/public/images/project/detail_rec/04.png" alt="detail_rec_04" width="80%" />
+        <img src="/investment/public/images/project/detail_rec/04.png" alt="detail_rec_04" width="80%" />
+        <img src="/investment/public/images/project/detail_rec/04.png" alt="detail_rec_04" width="80%" />
+        <img src="/investment/public/images/project/detail_rec/04.png" alt="detail_rec_04" width="80%" />
+        <img src="/investment/public/images/project/detail_rec/04.png" alt="detail_rec_04" width="80%" />
+        <img src="/investment/public/images/project/detail_rec/04.png" alt="detail_rec_04" width="80%" />
+      </div>
+      <div class="detail_people">
+        <img src="/investment/public/images/project/detail/up.svg" alt="up" width="50%" />
+        <div>500+ registered last 30 days</div>
+      </div>
+      <hr />
+    </section>
+
+    <section class="project_cashback">
+      <div class="cashback">
+        <h3 style="padding: 5px; border-radius: 3px">CashBack</h3>
+        <div id="instance_tool">
+          <span>50% Instant</span>
+          <img src="/investment/public/images/project/question-svgrepo-com.svg" alt="question-svgrepo-com" />
+          <div class="tool_text_i">
+            Wallet Grow will distribute 50% of refferal commissions within 24 hours to the investors who registered and
+            invested with our company affiliate link.
+          </div>
+        </div>
+        <div id="last_tool">
+          <span>20% Later</span>
+          <img src="/investment/public/images/project/question-svgrepo-com.svg" alt="question-svgrepo-com" />
+          <div class="tool_text_l">
+            20% will be distribute again to the investors, at end of the project (must bought an insurance for receiving
+            cashback).
+          </div>
+        </div>
+      </div>
+      <hr style="height: 8px" />
+      <div class="withraw_content">
+        <div class="started">
+          <button>Stated : 08.11.2023</button>
+          <button class="paying">
+            <svg width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
+                  stroke="#01cc01"
+                  stroke-width="2"
+                ></path>
+                <path
+                  d="M9 12L10.6828 13.6828V13.6828C10.858 13.858 11.142 13.858 11.3172 13.6828V13.6828L15 10"
+                  stroke="#01cc01"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </g>
+            </svg>
+            Paying
+          </button>
+        </div>
+        <div class="minimum_list">
+          <div>
+            <img src="/investment/public/images/project/detail/down-arrow.svg" alt="down-arrow" />
+            <div>Minimum Deposit - $10</div>
+          </div>
+
+          <div>
+            <img src="/investment/public/images/project/detail/up-arrow.svg" alt="up-arrow" />
+            <div>Minimum Withdrawal -</div>
+          </div>
+          <p>0.0002btc, 0.005eth, 0.02ltc, 5doge, 1xrp, 0.005bnb, 5trx, 1usdt, 3usdt, 5usdt.</p>
+
+          <div>
+            <img src="/investment/public/images/project/detail/money.svg" alt="money" />
+            <div>Income Returns -</div>
+          </div>
+          <ol>
+            <li>1.5% hourly for 3 days (capital included)</li>
+            <li>6% daily for 7 days (capital return)</li>
+            <li>250% after 14 days (capital included)</li>
+            <li>800% after 30 days (capital included)</li>
+          </ol>
+
+          <div>
+            <img src="/investment/public/images/project/detail/calendar.svg" alt="calendar" />
+            <div>Affiliate Income -</div>
+          </div>
+          <ul>
+            <li>Type 1 - 2% - 1% - 1%</li>
+            <li>Type 2 - 10% - 2% - 1%</li>
+          </ul>
+        </div>
+      </div>
+      <div class="withraw_fee">
+        <div>Withdrawal Fee - 0.5%</div>
+        <div>Arrival Time - Instant</div>
+      </div>
+      <hr />
+      <div class="high_lights_list">
+        <h3 class="fontcolor">HighLights :</h3>
+        <ul>
+          <li><b>Trusting Score</b> - 60%</li>
+          <li><b>Running days</b> - 13</li>
+          <li><b>Current status</b>- Paying</li>
+          <li><b>Project Insurance</b> - 35% + 20% + 10%</li>
+        </ul>
+      </div>
+      <div class="cashback_ad">
+        <div>
+          <img src="/investment/public/images/project/detail/return.png" alt="return" />
+          <div>30Days</div>
+          <div>Capital Return</div>
+        </div>
+        <div>
+          <img src="/investment/public/images/project/detail/cashback.png" alt="cashback" />
+          <div>Cashback-50%</div>
+          <div>From Referral</div>
+        </div>
+        <div>
+          <img src="/investment/public/images/project/detail/insurance.png" alt="insurance" width="80px" />
+          <div>Under</div>
+          <div>Insurance</div>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <section class="project_highlights">
+      <div>
+        <h3>Fact about G-miner</h3>
+        <div style="padding: 10px 20px">
+          Our company G-MINER offers to invest money in a promising direction — cryptocurrency mining and evaluate the
+          first results within a few days after starting working with us. And there are many advantages of such a
+          solution, of which we are ready to convince you.
+        </div>
+        <div class="project_description">
+          <img src="/investment/public/images/project/detail/ggame_1.png" alt="ggame_1" width="100%" />
+          <img src="/investment/public/images/project/detail/ggame_2.png" alt="ggame_2" width="100%" />
+          <img src="/investment/public/images/project/detail/ggame_3.png" alt="ggame_3" width="100%" />
+          <img src="/investment/public/images/project/detail/ggame_4.png" alt="ggame_4" width="100%" />
+          <img src="/investment/public/images/project/detail/ggame_5.png" alt="ggame_5" width="100%" />
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews">
+      <div class="accept_pay">
+        <div>
+          <div style="width: 40%">Accept Payment:</div>
+          <div>
+            <img src="/investment/public/images/project/detail/a.png" alt="a" />
+            <img src="/investment/public/images/project/detail/b.png" alt="b" />
+            <img src="/investment/public/images/project/detail/c.png" alt="c" />
+            <img src="/investment/public/images/project/detail/d.png" alt="d" />
+          </div>
+        </div>
+        <div>
+          <div style="width: 40%">Social Media:</div>
+          <div>
+            <img src="/investment/public/images/project/detail/social/facebook-svg.png" alt="facebook-svg" />
+            <img src="/investment/public/images/project/detail/social/instagram-svg.png" alt="instagram-svg" />
+            <img src="/investment/public/images/project/detail/social/telegram-svg.png" alt="telegram-svg" />
+            <img src="/investment/public/images/project/detail/social/x-svg.png" alt="x-svg" />
+            <img src="/investment/public/images/project/detail/social/discord-svg.png" alt="discord-svg" />
+            <img src="/investment/public/images/project/detail/social/youtube-svg.png" alt="youtube-svg" />
+          </div>
+        </div>
+      </div>
+      <div class="rating_review">
+        <div class="rate_btn">
+          <h3 class="fontcolor">Ratings & Reviews</h3>
+          <button>Rate Product</button>
+        </div>
+        <div class="review_graph">
+          <div class="review_star">
+            <div>Very Good</div>
+            <div>
+              <img src="/investment/public/images/project/star-green.svg" alt="star-green" />
+              <img src="/investment/public/images/project/star-green.svg" alt="star-green" />
+              <img src="/investment/public/images/project/star-green.svg" alt="star-green" />
+              <img src="/investment/public/images/project/star-green.svg" alt="star-green" />
+              <img src="/investment/public/images/project/star-green.svg" alt="star-green" />
+            </div>
+            <div>5,000 ratings and 375 reviews</div>
+          </div>
+          <div class="graph">
+            <div>
+              <span>5</span>
+              <img src="/investment/public/images/project/star-green.svg" alt="star-green" />
+              <div>
+                <div class="bar-5"></div>
+              </div>
+              <span>2000</span>
+            </div>
+            <div>
+              <span>4</span>
+              <img src="/investment/public/images/project/star-green.svg" alt="star-green" />
+              <div>
+                <div class="bar-4"></div>
+              </div>
+              <span>1000</span>
+            </div>
+            <div>
+              <span>3</span>
+              <img src="/investment/public/images/project/star-green.svg" alt="star-green" />
+              <div>
+                <div class="bar-3"></div>
+              </div>
+              <span>500</span>
+            </div>
+            <div>
+              <span>2</span>
+              <img src="/investment/public/images/project/star-green.svg" alt="star-green" />
+              <div>
+                <div class="bar-2"></div>
+              </div>
+              <span>1000</span>
+            </div>
+            <div>
+              <span>1</span>
+              <img src="/investment/public/images/project/star-green.svg" alt="star-green" />
+              <div>
+                <div class="bar-1"></div>
+              </div>
+              <span>500</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="padding: 10px">
+        <h4>Payment Proofs</h4>
+        <div class="payment_proofs">
+          <img src="/investment/public/images/project/detail/a.png" alt="a" />
+          <img src="/investment/public/images/project/detail/b.png" alt="b" />
+          <img src="/investment/public/images/project/detail/c.png" alt="c" />
+          <img src="/investment/public/images/project/detail/d.png" alt="d" />
+        </div>
+        <div class="payment_review">
+          <div>
+            <img src="/investment/public/images/project/star-green.svg" alt="star-green" />
+            <img src="/investment/public/images/project/star-green.svg" alt="star-green" />
+            <img src="/investment/public/images/project/star-green.svg" alt="star-green" />
+            <img src="/investment/public/images/project/star-green.svg" alt="star-green" />
+            <img src="/investment/public/images/project/star-green.svg" alt="star-green" />
+          </div>
+          <div>Nice Project</div>
+        </div>
+        <!-- <div>Ahmed Khan: American</div>
+        <div>
+          <button>Like - 101</button>
+          <button>Unlike - 23</button>
+        </div>
+        <div>
+          <span>Verified Review : Feb 2023</span>
+        </div> -->
+      </div>
+    </section>
+
+    <div style="margin-top: 50px"></div>
+
+    <div class="project_detail_buttons">
+      <button>Add to favourite</button>
+      <button>Register now</button>
+    </div>
+
+    <script src="/investment/public/jquery/jquery-3.6.4.min.js"></script>
+    <script src="/investment/public/js/slick.js"></script>
+    <script src="/investment/public/js/project.js"></script>
+  </body>
+</html>
