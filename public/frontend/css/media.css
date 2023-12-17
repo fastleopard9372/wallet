@@ -1,0 +1,1128 @@
+@media all and (max-height: 850px) {
+  .section_video_inner h1 {
+    font-size: 30px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .roadmap {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+@media all and (max-width: 1800px) {
+  .section_ouradvantages {
+    background-size: auto, auto, auto 100%;
+  }
+}
+
+@media all and (max-width: 1460px) {
+  .header_inner {
+    padding-right: 120px;
+  }
+}
+
+@media all and (max-width: 1220px) {
+  .logo {
+    display: block;
+    width: 142px;
+  }
+
+  .top_menu a {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  .footer_top_inner {
+    flex-wrap: wrap;
+    padding-bottom: 0;
+  }
+
+  .footer_top_inner > div {
+    margin-bottom: 20px;
+  }
+
+  .footer_top_inner > div:nth-child(1) {
+    width: 50%;
+  }
+
+  .footer_top_inner > div:nth-child(2) {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .footer_menu li a {
+    font-size: 16px;
+  }
+
+  .menu_overlay {
+    padding-left: 40px;
+  }
+
+  .menu_overlay::before {
+    display: none;
+  }
+
+  .menu_overlay_right li a {
+    font-size: 20px;
+  }
+}
+
+@media all and (max-height: 850px) {
+  .social_right_inner {
+    padding: 10px 0;
+  }
+}
+
+@media all and (max-width: 1000px), (max-height: 800px) {
+  .circle_bg:before {
+    top: -300px;
+  }
+
+  body {
+    font-size: 1.2rem !important;
+  }
+
+  .header_inner {
+    padding-right: 0;
+    height: 85px;
+  }
+
+  .header_inner > div:nth-child(2),
+  .header_inner > div:nth-child(3) {
+    display: none;
+  }
+
+  .btnmenu {
+    width: 85px;
+    height: 85px;
+  }
+
+  .btnmenu i {
+    width: 6px;
+    height: 6px;
+  }
+
+  .social_right {
+    display: none;
+  }
+
+  .section_video::before {
+    right: 0;
+  }
+
+  .section_video_inner h1 {
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 1.54px;
+  }
+
+  .section_video_inner h1 br {
+    display: none;
+  }
+
+  .section_video_inner {
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    padding-top: 54px;
+    padding-bottom: 32px;
+  }
+
+  .section_video_inner .mb-35 {
+    margin-bottom: 20px;
+  }
+
+  .section_video_inner .mb-60 {
+    margin-bottom: 37px;
+  }
+
+  .section_video_btn {
+    justify-content: center;
+  }
+
+  .section_video_btn > div {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .white_btn {
+    height: 46px;
+    border-radius: 23px;
+    font-size: 14px;
+    padding: 0 17px;
+    letter-spacing: 1.2px;
+    min-width: 90px;
+  }
+
+  .white_btn_icon {
+    padding-right: 0;
+  }
+
+  .white_btn span img {
+    margin-left: 6px;
+  }
+
+  .white_btn svg rect {
+    rx: 23px;
+    ry: 23px;
+  }
+
+  .green_btn {
+    height: 46px;
+    border-radius: 23px;
+    font-size: 16px;
+    padding: 0 22px;
+    letter-spacing: 1.37px;
+  }
+
+  .currency_item {
+    width: 153px;
+    min-height: 64px;
+    border-radius: 20px;
+    border: solid 1px #1d7bbf;
+    padding: 8px;
+    margin: 0 9px;
+  }
+  .currency_item_top {
+    font-size: 14px;
+  }
+  .currency_item_top span {
+    font-size: 1rem;
+  }
+  .currency_item .fs-12 {
+    font-size: 8px;
+  }
+  .currency_up,
+  .currency_down {
+    background-size: 100% auto;
+  }
+  .section_currency {
+    padding: 13px 0;
+    border-bottom: 1px #025894 solid;
+  }
+  .ouradvantages_img {
+    display: none;
+  }
+  .wrp_aditem > div:nth-child(1) .aditem,
+  .wrp_aditem > div:nth-child(4) .aditem,
+  .wrp_aditem > div:nth-child(5) .aditem {
+    padding-left: 10px;
+  }
+  .aditem {
+    width: auto;
+    max-width: none;
+    text-align: center;
+    padding: 0 10px;
+  }
+  .aditem .fs-26 {
+    font-size: 16px;
+  }
+  .aditem .fs-18 {
+    font-size: 1rem;
+  }
+  .aditem img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .aditem lottie-player {
+    height: auto;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section_title {
+    font-size: 18px;
+    line-height: normal;
+    letter-spacing: 1.54px;
+    margin-bottom: 8px;
+  }
+  .section_title > div {
+    display: inline-block;
+  }
+  .fs-16 {
+    font-size: 1rem;
+  }
+  .mb-30 {
+    margin-bottom: 1rem;
+  }
+  .hrwhite,
+  .hrred {
+    height: 2px;
+  }
+  .hrwhite.mb-60 {
+    margin-bottom: 25px;
+  }
+  .section_ouradvantages {
+    background: url(/web/20210924235423im_/https://mido-finance.com/assets/1.17/mido/svg/section_ouradvantages3.svg)
+        no-repeat right 179px,
+      url(/web/20210924235423im_/https://mido-finance.com/assets/1.17/mido/svg/section_ouradvantages2.svg) repeat-x
+        center 14px,
+      url(/web/20210924235423im_/https://mido-finance.com/assets/1.17/mido/svg/section_ouradvantages.svg) no-repeat
+        center bottom;
+    background-size: 347px auto, auto 100%, 150% 100%;
+    padding-top: 30px;
+    padding-bottom: 70px;
+  }
+
+  .section_work_bg {
+    background-size: 100% auto, auto, 100% auto;
+  }
+  .section_roadmap {
+    padding-top: 0;
+  }
+  .roadmap_title_sticky {
+    position: relative;
+    min-height: 0;
+  }
+  .page_bg .roadmap_title_sticky {
+    min-height: 190px;
+  }
+  .roadmap_title_sticky > div {
+    background: none;
+    padding-top: 0;
+  }
+  .roadmap {
+    padding-bottom: 76px;
+    margin-top: 0;
+  }
+  .wrp_roadmap_year_list {
+    display: none;
+  }
+  .roadmap_list {
+    display: flex;
+    align-items: flex-start;
+  }
+  .roadmap_list.slick-initialized {
+    display: block;
+    margin-bottom: 22px;
+  }
+  .roadmap_list > div {
+    width: 320px;
+    min-width: 320px;
+    text-align: left;
+    padding-right: 0;
+  }
+  .roadmap_list > div:nth-child(2n) {
+    text-align: left;
+    padding-right: 0;
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .roadmap_list.slick-initialized > div {
+    width: auto;
+    min-width: 0;
+  }
+  .roadmap_year {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 10px;
+    background: linear-gradient(to right, rgba(0, 152, 208, 0), #68c9fa);
+    text-align: right;
+  }
+  .roadmap_year span {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    font-size: 16px;
+    transform: none;
+  }
+  .roadmap_inner {
+    padding-left: 83px;
+  }
+  .roadmap_title {
+    font-size: 14px;
+    min-height: 32px;
+    margin-bottom: 11px;
+  }
+  .roadmap_desc li {
+    font-size: 1rem;
+  }
+  .imgcrc {
+    width: 110px;
+  }
+  .roadmap_desc li::after,
+  .roadmap_list > div:nth-child(2n) .roadmap_desc li::after {
+    right: auto;
+    left: -39px;
+  }
+  .roadmap_desc li::before,
+  .roadmap_list > div:nth-child(2n) .roadmap_desc li::before {
+    right: auto;
+    left: -32px;
+  }
+  .roadmap_title_img,
+  .roadmap_list > div:nth-child(2n) .roadmap_title_img {
+    right: auto;
+    left: -52px;
+    margin-top: -20px;
+    width: 40px;
+    height: 40px;
+  }
+  .roadmap_title_img img {
+    max-width: 20px;
+    height: auto;
+    max-height: 20px;
+  }
+  .roadmap_desc li:first-child::before {
+    top: -20px;
+  }
+  .roadmap_desc li:last-child::before {
+    bottom: -60px;
+  }
+  .roadmap_inner:last-child .roadmap_desc li:last-child::before {
+    bottom: 50%;
+  }
+  .roadmap_list::before,
+  .roadmap_list::after {
+    display: none;
+  }
+  .roadmap_year:before,
+  .roadmap_year:after {
+    content: "";
+    position: absolute;
+    top: -7px;
+    left: 0;
+    width: 100%;
+    height: 0;
+    border-top: 2px #5a6882 dotted;
+  }
+  .roadmap_year:after {
+    top: auto;
+    bottom: -7px;
+  }
+  .roadmap_list > div:nth-child(2n) .roadmap_year {
+    right: auto;
+    left: auto;
+  }
+  .roadmap_title::after,
+  .roadmap_list > div:nth-child(2n) .roadmap_title::after {
+    top: -35px;
+    right: auto;
+    left: -36px;
+    margin-top: 0;
+    transform: rotate(90deg);
+  }
+  .section_roadmap::after {
+    height: 40px;
+    background-size: 100% auto;
+  }
+  .roadmap_progress {
+    display: block;
+    height: 4px;
+    background: #e1e1e1;
+  }
+  .roadmap_progress > div {
+    height: 4px;
+    width: 0;
+    background: #00f2eb;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .section_news {
+    padding-top: 33px;
+    padding-bottom: 38px;
+  }
+
+  .btn_all {
+    width: 100px;
+    height: 25px;
+    font-size: 1rem;
+    letter-spacing: 1.03px;
+  }
+  .news_item {
+    margin: 0 5px;
+  }
+  .news_item_top {
+    width: 280px;
+    height: 200px;
+  }
+  .news_item_name {
+    font-size: 1rem;
+    padding-right: 65px;
+  }
+  .news_item_btn {
+    top: -16px;
+    right: 30px;
+    width: 31px;
+    height: 31px;
+  }
+  .news_item_date {
+    font-size: 1rem;
+  }
+  .news_item_bottom {
+    padding: 5px 10px;
+  }
+  #planes {
+    padding-top: 16px;
+    padding-bottom: 30px;
+  }
+
+  .footer_center_inner {
+    flex-wrap: wrap;
+    padding-bottom: 0;
+  }
+  .footer_center_inner > div {
+    margin-bottom: 20px;
+    order: 1;
+  }
+  .footer_center_inner > div:last-child {
+    order: 5;
+  }
+  .footer_center_inner > div:first-child {
+    order: 4;
+  }
+  .footer_menu {
+    width: 33.33%;
+    padding-right: 10px;
+  }
+  .fs-45 {
+    font-size: 18px;
+  }
+  .footer_top_flex {
+    display: block;
+    margin-bottom: 1rem;
+  }
+  .logo_footer {
+    display: block;
+    width: 134px;
+  }
+  .menu_overlay_header {
+    height: 85px;
+    margin-bottom: 10px;
+  }
+  .menu_overlay_title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .menu_overlay_right li a {
+    font-size: 16px;
+  }
+  .mb-40 {
+    margin-bottom: 20px;
+  }
+  .fs-60 {
+    font-size: 30px;
+  }
+  .fs-36 {
+    font-size: 26px;
+  }
+  .fs-18 {
+    font-size: 16px;
+  }
+  .register_form_flex {
+    column-gap: 20px;
+  }
+  .wrp_login {
+    min-height: calc(100vh - 85px);
+  }
+  .menu_overlay_header_btn > div {
+    margin-right: 20px;
+  }
+  .footer_accept {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .header_title {
+    height: 230px;
+  }
+  .header_title_height_auto {
+    height: auto;
+    padding: 30px 0;
+  }
+  .header_title h1 {
+    font-size: 40px;
+  }
+  .fs-90 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .section_gradient {
+    padding: 20px 0;
+  }
+  .fs-48 {
+    font-size: 40px;
+  }
+  .about_advantages {
+    column-gap: 20px;
+  }
+  .bg_about_list {
+    background: #eff1f8;
+  }
+  .bg_about_list_inner {
+    padding: 40px 0;
+  }
+  .about_list_content {
+    padding: 0 40px;
+  }
+  .about_list_btn {
+    min-width: 300px;
+  }
+  .about_list_btn li {
+    margin-bottom: 15px;
+  }
+
+  .howtostart_center {
+    width: 320px;
+    height: 200px;
+  }
+  .howtostart_sl {
+    top: 100px;
+  }
+  .howtostart_item .fs-24 {
+    font-size: 20px;
+  }
+  .howtostart_img {
+    margin: 0 auto 10px auto;
+  }
+  .page_submenu li {
+    padding: 0 10px 0 10px;
+  }
+  .page_submenu a {
+    font-size: 20px;
+    letter-spacing: 0;
+    padding-bottom: 0;
+  }
+  .fs-32 {
+    font-size: 26px;
+  }
+  .calculate_deposit_info .fs-24 {
+    font-size: 18px;
+  }
+  .calculate_right {
+    padding: 15px 10px;
+    row-gap: 10px;
+    column-gap: 10px;
+  }
+  .calculate_btn {
+    margin-left: -9px;
+    margin-right: -9px;
+  }
+  .calculate_btn a {
+    margin-bottom: 15px;
+  }
+  .calc_inp_group {
+    height: 60px;
+  }
+  .calc_inp_label,
+  .calc_inp_group input {
+    font-size: 18px;
+  }
+  .input--filled .calc_inp_label {
+    font-size: 1rem;
+  }
+  .calculate_form {
+    padding: 15px;
+  }
+  .calculate_right2 {
+    padding: 15px 15px;
+  }
+  .pagetable th,
+  .pagetable td {
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+  .pagetable td:last-child::after {
+    width: 5px;
+  }
+  .wrp_news_list .news_title {
+    font-size: 20px;
+  }
+  .wrp_news_list {
+    column-gap: 30px;
+  }
+  .header_title {
+    padding-right: 0;
+  }
+  .wrp_faq_list {
+    padding: 0;
+    margin-bottom: 40px;
+  }
+  .faq_list {
+    column-gap: 20px;
+  }
+  .faq_list a {
+    font-size: 20px;
+    padding: 20px;
+  }
+  .contact_info {
+    padding: 30px 20px;
+  }
+  .contact_form {
+    padding: 20px 20px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .overlay_message_item {
+    width: 320px;
+  }
+  .footer_menu {
+    width: 100%;
+    padding-right: 0;
+  }
+  .footer_bottom_inner {
+    display: block;
+  }
+  .footer_bottom_inner > div:first-child {
+    max-width: 100%;
+    margin-bottom: 12px;
+  }
+  .footer_bottom_inner > div:last-child {
+    justify-content: space-between;
+  }
+
+  .menu_overlay_content {
+    flex-direction: column;
+  }
+  .menu_overlay_news {
+    width: 100%;
+    order: 2;
+  }
+  .menu_overlay_right {
+    width: 100%;
+    order: 1;
+    max-height: none;
+    margin-bottom: 20px;
+  }
+  .menu_overlay_hr {
+    margin: 10px 0;
+  }
+  .menu_overlay_news_inner .news_item {
+    height: 150px;
+  }
+  .menu_overlay {
+    display: block;
+    padding: 0 10px;
+  }
+  .fs-24 {
+    font-size: 20px;
+  }
+  .menu_overlay_header {
+    display: block;
+    height: auto;
+    padding-top: 10px;
+    margin-bottom: 0;
+  }
+  .menu_overlay_header_btn {
+    margin: 10px 0 20px 0;
+  }
+  .menu_overlay_bottom {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: block;
+  }
+  .menu_overlay_bottom > div {
+    flex-direction: column;
+  }
+  .menu_overlay_header_btn {
+    padding-bottom: 60px;
+  }
+  a.btn_download2 {
+    position: absolute;
+    top: 135px;
+    left: 10px;
+  }
+  .menu_overlay_bottom .footer_social {
+    margin-left: 0;
+    padding-top: 5px;
+  }
+  .menu_overlay_bottom > div:last-child {
+    width: 100%;
+    justify-content: center;
+    padding-top: 10px;
+  }
+
+  .login_inner {
+    flex-direction: column;
+    background: url(/web/20210924235423im_/https://mido-finance.com/assets/1.17/mido/img/loginbg.png) no-repeat left top;
+    background-size: cover;
+  }
+  .wrp_login_desc {
+    order: 2;
+    width: 100%;
+  }
+  .wrp_login_form {
+    width: 100%;
+    order: 1;
+    padding: 30px 10px 20px 10px;
+  }
+  .bl_register {
+    margin-right: 0;
+  }
+  .bl_login,
+  .bl_register {
+    display: none;
+    animation: none;
+  }
+  .bl_login.open,
+  .bl_register.open {
+    display: block;
+    animation: none;
+  }
+  .reset_inner {
+    padding: 30px 10px;
+    margin-bottom: 20px;
+  }
+  .about_advantages_img img {
+    height: auto;
+    margin: -25px 0 0 -20px;
+  }
+  .header_title_img img {
+    margin-left: 0;
+  }
+  .header_title {
+    padding-left: 0;
+  }
+  .header_title h1 {
+    font-size: 30px;
+  }
+  .header_title h1 span::after {
+    bottom: 2px;
+  }
+  .about_flex {
+    display: block;
+  }
+  .about_flex > div {
+    width: 100%;
+    max-width: none;
+  }
+  .about_flex > div:first-child {
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+  .about_flex > div:last-child {
+    padding-left: 0;
+  }
+  .about_flex_padd {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .pb-60 {
+    padding-bottom: 30px;
+  }
+  .pt-60 {
+    padding-top: 30px;
+  }
+  .mb-100 {
+    margin-bottom: 50px;
+  }
+  .about_img_bottom {
+    margin-bottom: 0;
+  }
+  .about_img_top {
+    margin-top: 0;
+  }
+  .bg_about2_inner {
+    max-width: none;
+    margin-left: 0;
+    padding: 40px 0;
+  }
+  .bg_about2_inner:before {
+    left: -15px;
+    right: -15px;
+    width: auto;
+  }
+  .about_img {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title_mobile {
+    display: block;
+  }
+  .about_list_btn {
+    display: none;
+  }
+  .bg_about_list_inner {
+    display: block;
+  }
+  .about_list_content {
+    padding: 0;
+  }
+  .about_list_content > div {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .bg_about3_inner {
+    padding: 40px 0;
+  }
+  .page_bg .roadmap_title_sticky {
+    min-height: 0;
+  }
+
+  .howtostart_center {
+    width: 300px;
+    height: 180px;
+    margin-bottom: 50px;
+  }
+  .howtostart_sl {
+    position: relative;
+    top: 0;
+    margin-bottom: 100px;
+  }
+  .howtostart_item {
+    top: -40px;
+    white-space: normal;
+  }
+  .howtostart_img {
+    width: 80px;
+    height: 80px;
+    transform: scale(1);
+  }
+  .howtostart_item .fs-24 {
+    font-size: 1rem;
+  }
+  .howtostart_desc > div {
+    padding: 0 10px;
+  }
+  .howtostart_img lottie-player {
+    width: 100px;
+    opacity: 1;
+  }
+  .howtostart {
+    padding-top: 50px;
+  }
+
+  .pb-300 {
+    padding-bottom: 150px;
+  }
+  .pt-300 {
+    padding-top: 150px;
+  }
+  .flex50 {
+    display: block;
+  }
+  .flex50 > div {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .bg_white_padd {
+    padding: 30px 15px;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .bg_white_padd:before {
+    display: none;
+  }
+  .page_submenu a {
+    font-size: 1rem;
+    padding-bottom: 11px;
+    text-align: center;
+    padding-top: 10px;
+    line-height: 14px;
+  }
+  .page_submenu a:after {
+    height: 3px;
+  }
+
+  .wrp_calculate {
+    grid-template-columns: 1fr 1fr;
+  }
+  .calculate_right {
+    grid-template-columns: 1fr;
+  }
+  .wrp_calculate_right {
+    padding: 0;
+  }
+  .fs-28 {
+    font-size: 24px;
+  }
+  .calculate_right2 .calculate_deposit_info {
+    grid-template-columns: 1fr;
+  }
+  .wrp_calculate2 {
+    grid-template-columns: 1fr;
+  }
+  .wrp_calculate2 .calculate_btn {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .partnersflex {
+    display: block;
+  }
+  .partnersflex > div {
+    width: auto;
+    margin-bottom: 20px;
+  }
+  .news_list_item {
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+  }
+  .news_list_item > div:first-child {
+    order: 2;
+  }
+  .news_list_item > div:last-child {
+    order: 1;
+  }
+  .news_list_item:nth-child(2n) {
+    padding-top: 0;
+  }
+  .news_btn_name {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  .wrp_news_list .news_btn {
+    font-size: 1rem;
+  }
+  .news_pagination a {
+    font-size: 14px;
+    margin: 0 10px;
+  }
+  .news_pagination a span {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+  }
+  .news_pagination a span svg {
+    width: 9px;
+  }
+  .faq_list {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+  }
+  .faq_list a .img {
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .faq_list a .img img {
+    max-height: 120px;
+  }
+
+  .wrp_search {
+    background-position: 5px center;
+  }
+  .wrp_search input {
+    padding-left: 40px;
+    padding-right: 100px;
+    font-size: 14px;
+  }
+  .wrp_search button {
+    width: 90px;
+  }
+  .faq_item_title i {
+    width: 40px;
+    height: 40px;
+  }
+  .wrp_contact {
+    grid-template-columns: 1fr;
+  }
+  .wrp_contact_form {
+    padding: 0;
+  }
+  .contact_form_grid {
+    column-gap: 10px;
+  }
+  .fs-21 {
+    font-size: 16px;
+  }
+  .content_flex {
+    display: block;
+    margin-bottom: 0;
+  }
+  .content_flex > div:first-child {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .content_flex > div:last-child {
+    width: 100%;
+  }
+  .howtostart_items {
+    transform: translateX(0) !important;
+  }
+  .open .faq_item_title {
+    padding-left: 20px;
+  }
+  .error1 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .error2 {
+    font-size: 26px;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+  .wrp_error img {
+    max-height: 200px;
+  }
+  .top_desc_grid {
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .section_roadmap {
+    overflow: hidden;
+  }
+
+  .section_ouradvantages {
+    background-size: 347px auto, auto 100%, 200% 100%;
+  }
+  .anim_overlay_inner {
+    width: 320px;
+    padding: 30px 20px;
+  }
+  .register_form_flex {
+    grid-template-columns: 1fr;
+  }
+  .register_form_flex_order > div:last-child {
+    order: 1;
+  }
+  .register_form_flex_order > div:first-child {
+    order: 2;
+  }
+  .wrp_calculate {
+    grid-template-columns: 1fr;
+  }
+  .calculate_btn {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .news_first_item {
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+  .wrp_news_list {
+    grid-template-columns: 1fr;
+  }
+
+  .wrp_lot_list .slick-track {
+    padding-bottom: 40px;
+  }
+  .lot_item {
+    max-width: 300px;
+  }
+  .contact_form_grid {
+    grid-template-columns: 1fr;
+  }
+  .faq_list {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*
+     FILE ARCHIVED ON 23:54:23 Sep 24, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:39:05 Apr 23, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 102.018
+  exclusion.robots: 0.084
+  exclusion.robots.policy: 0.074
+  cdx.remote: 0.071
+  esindex: 0.008
+  LoadShardBlock: 74.54 (3)
+  PetaboxLoader3.datanode: 69.941 (4)
+  load_resource: 56.372
+  PetaboxLoader3.resolve: 27.727
+*/

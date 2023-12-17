@@ -1,0 +1,87 @@
+.footer {
+  text-align: left;
+  width: 100%;
+  min-width: 320px;
+  -webkit-box-ordinal-group: 4;
+  -ms-flex-order: 3;
+  order: 3;
+  background: #ebfdfd;
+  -webkit-order: 3;
+  position: relative;
+}
+
+.footer_cols {
+  padding: 70px 0 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.footer_cols_left {
+  width: 410px;
+}
+
+.footer_cols_right {
+  width: 509px;
+}
+
+.footer_copy {
+  padding: 15px 20px;
+  text-align: center;
+  font-size: 12px;
+  color: #34373e;
+  background: #c8e6f5;
+}
+
+.footer_logo {
+  width: 86px;
+}
+
+.footer_logo a {
+  display: block;
+  font-size: 0;
+}
+
+.footer_nav {
+  margin: -5px 0 83px 9px;
+}
+
+.footer_nav ul {
+  list-style: none;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  max-width: 364px;
+}
+
+.footer_nav ul li {
+  margin-bottom: 13px;
+  font-size: 16px;
+}
+
+.footer_nav ul li a {
+  color: #34373e;
+}
+
+.footer_nav ul li a:hover {
+  color: #38ade8;
+}
+
+.footer_soc h4 {
+  font-weight: 700;
+}
+
+.footer_btn {
+  margin: 27px 0 48px;
+}
+
+.footer .form-control {
+  font-weight: 600;
+}
+
+.footer .form_group.filled {
+  border-color: #c8e6f5;
+}
