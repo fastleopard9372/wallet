@@ -48,7 +48,7 @@
     <h3>IN</h3>
   </header>
 
-  <form action="{{ route('front.wallet_index') }}" method="post" id="wallet_index_form">
+  <form method="post" id="wallet_index_form">
     @csrf
     <section class="total">
       <div>Total Coin(COIN.)</div>
@@ -244,8 +244,24 @@ $(document).ready(function() {
       $("#transfer_coin").focus();
       return;
     }
-    $("#wallet_index_form").submit();
-
+    $.ajax({
+      url: "{{route('front.wallet_index')}}",
+      data: {
+        transfer_coin: $("#transfer_coin").val(),
+        _token: '{{ csrf_token() }}',
+        kind: "in",
+        is_flag: 1
+      },
+      type: "POST",
+      success: function(response) {
+        if (response.status == 'error') {
+          $("#email_error").text(response.message);
+        } else {
+          $("#email_error").text("");
+          location.href = "{{route('front.wallet_index')}}";
+        }
+      }
+    });
   });
 });
 </script>

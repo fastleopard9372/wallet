@@ -35,8 +35,13 @@ class AdminController extends Controller
                 return redirect()->back()->withErrors($validator->errors())->withInput();
             } else {
                 $check = $request->all();
-                if (Auth::guard('admin')->attempt(['email' => $check['email'], 'password' => $check['password']])) {
-                    return redirect()->route('admin.dashboard')->with('success', 'Logged In Successfully');
+                $res = DB::table('users')->where('email', $check['email'])->first();
+                if ($res->name == 'Super Admin' || $res->name == 'Admin') {
+                    if (Auth::guard('admin')->attempt(['email' => $check['email'], 'password' => $check['password']])) {
+                        return redirect()->route('admin.dashboard')->with('success', 'Logged In Successfully');
+                    } else {
+                        return back()->with('error', 'Invalid Credintails');
+                    }
                 } else {
                     return back()->with('error', 'Invalid Credintails');
                 }

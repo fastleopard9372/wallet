@@ -47,13 +47,13 @@
     <h3>Out</h3>
   </header>
 
-  <form action="{{ route('front.wallet_index') }}" method="post" id="wallet_index_form">
+  <form method="post" id="wallet_index_form">
     @csrf
     <section class="total">
       <div>X wallet(COIN.)</div>
       <div class="coin">
         <div style="width: 15%">COIN.</div>
-        <input type="hidden" name="kind" value="out" />
+        <input type="hidden" name="is_flag" value="0" />
         <div style="width: 65%">
           <input type="number" id="total_coin" name="total_coin" value="{{$wallet_balance}}" style="width: 100%"
             readonly="true" />
@@ -231,13 +231,29 @@
 $(document).ready(function() {
   $("#wallet_out_ok").click(function() {
     var wc = "{{$wallet_balance}}";
-    if (wc * 1 <= 0) {
+    if ($("#transfer_coin").val() * 1 <= 0 || $("#transfer_coin").val() * 1 > 1 * wc) {
       toastr.warning("insufficient balance");
       $("#transfer_coin").focus();
       return;
     }
-    $("#wallet_index_form").submit();
-
+    $.ajax({
+      url: "{{route('front.wallet_index')}}",
+      data: {
+        transfer_coin: $("#transfer_coin").val(),
+        _token: '{{ csrf_token() }}',
+        kind: "out",
+        is_flag: 1
+      },
+      type: "POST",
+      success: function(response) {
+        if (response.status == 'error') {
+          $("#email_error").text(response.message);
+        } else {
+          $("#email_error").text("");
+          location.href = "{{route('front.wallet_index')}}";
+        }
+      }
+    });
   });
 });
 </script>

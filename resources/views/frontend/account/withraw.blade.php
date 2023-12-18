@@ -130,7 +130,7 @@
       </div>
     </div>
   </section>
-  <form action="{{ route('withraw_insert') }}" method="post" id="withraw_form">
+  <form method="post" id="withraw_form">
     @csrf
     <section class="withraw ft14">
       <div class="coin">
@@ -158,7 +158,7 @@
         <div><input type="number" name="pay_password" id="pay_password" /></div>
       </div> -->
 
-      <button type="button" class="withraw_ok_btn" id="withraw_ok_btn">OK</button>
+      <button type="button" class="withraw_ok_btn" style="cursor:pointer;" id="withraw_ok_btn">OK</button>
 
       <p class="text-red rule_header text-bold underline">Withdrawal rules:</p>
 
@@ -346,7 +346,24 @@ $(document).ready(function() {
       $("#withraw_amount").focus();
       return;
     }
-    $("#withraw_form").submit();
+    $.ajax({
+      url: "{{ route('withraw_insert') }}",
+      data: {
+        bank_card_select: $("#bank_card_select").val(),
+        withraw_amount: $("#withraw_amount").val(),
+        _token: '{{ csrf_token() }}',
+        is_flag: 1
+      },
+      type: "POST",
+      success: function(response) {
+        if (response.status == 'error') {
+          $("#email_error").text(response.message);
+        } else {
+          $("#email_error").text("");
+          location.href = "{{route('withraw_record')}}";
+        }
+      }
+    });
   });
 });
 </script>

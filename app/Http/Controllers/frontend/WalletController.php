@@ -18,7 +18,7 @@ class WalletController extends Controller
 	{
 		if (Auth::guard('web')->check()) {
 			$user_id = Auth::guard('web')->user()->id;
-			if ($request->post('transfer_coin') !== NULL) {
+			if ($request->post('is_flag') !== NULL && $request->post('is_flag') == 1) {
 				$account = new Account;
 				$account->user_id = $user_id;
 				$account->earning_coins = -$request->transfer_coin;
@@ -28,37 +28,43 @@ class WalletController extends Controller
 				$wallet = new Wallet;
 				$wallet->user_id = $user_id;
 				$wallet->amount = $request->transfer_coin;
-				if ($request->post('kind') == 'out')
+				if ($request->post('kind') == 'out') {
 					$wallet->amount = -$request->transfer_coin;
-				$wallet->kind = -1;
-				if ($account->save())
+					$wallet->kind = -1;
+				}
+				if ($account->save()) {
 					$wallet->save();
+					return response()->json(['message' => 'Success', 'code' => 200]);
+				} else {
+					return response()->json(['message' => 'failure', 'code' => 404]);
+				}
+			} else {
+				$data['wallet_balance'] = Wallet::getWallet($user_id);
+				$data['is_start'] = Wallet::getWallet($user_id) > 20 ? 1 : 0;
+
+				$data['wallet_control'] = DB::table('wallet_control')->where('user_id', $user_id)->where('wallet_action', 1)->orderBy('created_at')->first();
+
+				$pledge = Wallet::getPledge($user_id);
+				$dt = Wallet::getIncome($user_id, $pledge);
+				$data['wallet_balance'] += $dt['total_income'];
+				$data['today_income'] = number_format($dt['today_income'], 3, '.', ',');
+				$data['total_income'] = number_format($dt['total_income'], 3, '.', ',');
+				$data['month_income'] = number_format($dt['month_income'], 3, '.', ',');
+				$data['income'] = number_format($dt['income'], 3, '.', ',');
+
+				$non_pledge = Wallet::getNonPledge($user_id);
+				$dt1 = Wallet::getIncome($user_id, $non_pledge);
+				$data['wallet_balance'] += $dt1['total_income'];
+				$data['wallet_balance'] = number_format($data['wallet_balance'], 3, '.', ',');
+				$data['today_income'] += number_format($dt1['today_income'], 3, '.', ',');
+				$data['total_income'] += number_format($dt1['total_income'], 3, '.', ',');
+				$data['month_income'] += number_format($dt1['month_income'], 3, '.', ',');
+				$data['income'] += number_format($dt1['income'], 3, '.', ',');
+
+				$data['length'] = count($pledge) * 1 + count($non_pledge);
+
+				return view('frontend.wallet.wallet_index', compact('data'));
 			}
-			$data['wallet_balance'] = Wallet::getWallet($user_id);
-			$data['is_start'] = Wallet::getWallet($user_id) > 20 ? 1 : 0;
-
-			$data['wallet_control'] = DB::table('wallet_control')->where('user_id', $user_id)->where('wallet_action', 1)->orderBy('created_at')->first();
-
-			$pledge = Wallet::getPledge($user_id);
-			$dt = Wallet::getIncome($user_id, $pledge);
-			$data['wallet_balance'] += $dt['total_income'];
-			$data['today_income'] = number_format($dt['today_income'], 3, '.', ',');
-			$data['total_income'] = number_format($dt['total_income'], 3, '.', ',');
-			$data['month_income'] = number_format($dt['month_income'], 3, '.', ',');
-			$data['income'] = number_format($dt['income'], 3, '.', ',');
-
-			$non_pledge = Wallet::getNonPledge($user_id);
-			$dt1 = Wallet::getIncome($user_id, $non_pledge);
-			$data['wallet_balance'] += $dt1['total_income'];
-			$data['wallet_balance'] = number_format($data['wallet_balance'], 3, '.', ',');
-			$data['today_income'] += number_format($dt1['today_income'], 3, '.', ',');
-			$data['total_income'] += number_format($dt1['total_income'], 3, '.', ',');
-			$data['month_income'] += number_format($dt1['month_income'], 3, '.', ',');
-			$data['income'] += number_format($dt1['income'], 3, '.', ',');
-
-			$data['length'] = count($pledge) * 1 + count($non_pledge);
-
-			return view('frontend.wallet.wallet_index', compact('data'));
 		} else {
 			return redirect()->route('front.signin')->with('error', 'Please login first');
 		}
@@ -218,6 +224,7 @@ class WalletController extends Controller
 				->select('wallet_control.id as id', 'wallet_action', 'date', 'income', 'wallet_control.created_at as created_at', 'wallet_control.updated_at')
 				->distinct()
 				->where('wallet_control.user_id', $user_id)
+				->where('kind', 0)
 				->selectRaw('sum(amount) as amount')
 				->groupby('wallet_control.id')
 				->orderbyDesc('id')

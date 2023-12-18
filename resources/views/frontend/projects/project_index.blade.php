@@ -441,7 +441,7 @@
       <div>
         <h3>Gio Gamer</h3>
         <div>
-          <div>
+          <div style="display:flex;">
             <img src="{{ URL::asset('frontend/images/project/star.svg') }}" alt="star" />
             <img src="{{ URL::asset('frontend/images/project/star.svg') }}" alt="star" />
             <img src="{{ URL::asset('frontend/images/project/star.svg') }}" alt="star" />
@@ -462,7 +462,7 @@
       <div>
         <h3>Royal Q Bot</h3>
         <div>
-          <div>
+          <div style="display:flex;">
             <img src="{{ URL::asset('frontend/images/project/star.svg') }}" alt="star" />
             <img src="{{ URL::asset('frontend/images/project/star.svg') }}" alt="star" />
             <img src="{{ URL::asset('frontend/images/project/star.svg') }}" alt="star" />
@@ -483,7 +483,7 @@
       <div>
         <h3>X - Land</h3>
         <div>
-          <div>
+          <div style="display:flex;">
             <img src="{{ URL::asset('frontend/images/project/star.svg') }}" alt="star" />
             <img src="{{ URL::asset('frontend/images/project/star.svg') }}" alt="star" />
             <img src="{{ URL::asset('frontend/images/project/star.svg') }}" alt="star" />
@@ -504,7 +504,7 @@
       <div>
         <h3>Ufmaa</h3>
         <div>
-          <div>
+          <div style="display:flex;">
             <img src="{{ URL::asset('frontend/images/project/star.svg') }}" alt="star" />
             <img src="{{ URL::asset('frontend/images/project/star.svg') }}" alt="star" />
             <img src="{{ URL::asset('frontend/images/project/star.svg') }}" alt="star" />
@@ -525,7 +525,7 @@
       <div>
         <h3>Elixxon</h3>
         <div>
-          <div>
+          <div style="display:flex;">
             <img src="{{ URL::asset('frontend/images/project/star.svg') }}" alt="star" />
             <img src="{{ URL::asset('frontend/images/project/star.svg') }}" alt="star" />
             <img src="{{ URL::asset('frontend/images/project/star.svg') }}" alt="star" />
@@ -546,7 +546,7 @@
       <div>
         <h3>Cointech2u bot</h3>
         <div>
-          <div>
+          <div style="display:flex;">
             <img src="{{ URL::asset('frontend/images/project/star.svg') }}" alt="star" />
             <img src="{{ URL::asset('frontend/images/project/star.svg') }}" alt="star" />
             <img src="{{ URL::asset('frontend/images/project/star.svg') }}" alt="star" />

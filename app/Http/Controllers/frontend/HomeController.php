@@ -266,7 +266,7 @@ class HomeController extends Controller
                     $withraw->save();
                 }
             }
-            return $this->withraw_record($request);
+            //  return $this->withraw_record($request);
         } else {
             return redirect()->route('front.signin')->with('error', 'Please login first');
         }
