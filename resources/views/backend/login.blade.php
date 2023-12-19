@@ -190,7 +190,7 @@
   <script src="{{ URL::asset('backend_assets/libs/particles.js/particles.js') }}"></script>
   <!-- particles app js -->
   <script src="{{ URL::asset('backend_assets/js/pages/particles.app.js') }}"></script>
-  <!-- password-addon init -->
+  <!-- password-addon  init -->
   <script src="{{ URL::asset('backend_assets/js/pages/password-addon.init.js') }}"></script>
 </body>
 
