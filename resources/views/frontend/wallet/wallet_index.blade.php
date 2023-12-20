@@ -141,14 +141,13 @@
         <div class="content">
           <div class="content_up">start</div>
           <br />
-          <div class="content_down">0.9% - 2% Daily</div>
+          <div class="content_down">0.9% - 1.9% Daily</div>
         </div>
       </div>
     </a>
 
     <h3 class="future_title2">Futures</h3>
-
-    <a href="{{ route('incentive') }}" class="future_box2">
+    <a href="javascript:;" class="future_box2" id="incentive">
       <div class="future_type" style="margin-top: 15px">
         <div class="pic">
           <div><img src="{{ URL::asset('frontend/images/wallet/incentive.svg') }}" alt="incentive" width="100%" /></div>
@@ -187,10 +186,18 @@
         </div>
       </div>
     </div>
-
     <div class="future_box2">
       <div class="future_type">
-        <div class="pic"><img src="{{ URL::asset('frontend/images/wallet/contract.png') }}" alt="contract"
+        <div class="pic"><img src="{{ URL::asset('frontend/images/wallet/savings.jpg') }}" alt="savings" width="100%" />
+        </div>
+        <div class="content">
+          <div class="soon" style="width: 50px">soon</div>
+        </div>
+      </div>
+    </div>
+    <div class="future_box2">
+      <div class="future_type">
+        <div class="pic"><img src="{{ URL::asset('frontend/images/wallet/contract.jpg') }}" alt="contract"
             width="100%" /></div>
         <div class="content">
           <div class="soon" style="width: 50px">Soon</div>
@@ -198,15 +205,7 @@
       </div>
     </div>
 
-    <div class="future_box2">
-      <div class="future_type">
-        <div class="pic"><img src="{{ URL::asset('frontend/images/wallet/savings.png') }}" alt="savings" width="100%" />
-        </div>
-        <div class="content">
-          <div class="soon" style="width: 50px">soon</div>
-        </div>
-      </div>
-    </div>
+
   </main>
 
   @include('frontend.layouts.mobile-navbar')
@@ -221,11 +220,11 @@
 
 <script>
 $(document).ready(function() {
-  var is_start = <?= $data['is_start'] ?>;
-  var wallet_balance = <?= $data['wallet_balance'] ?>;
-  var length = <?= $data['length'] ?>;
-  var income = <?= $data['income'] ?>;
-  var today_income = <?= $data['today_income'] ?>;
+  var is_start = "<?= $data['is_start'] ?>";
+  var wallet_balance = "<?= $data['wallet_balance'] ?>";
+  var length = "<?= $data['length'] ?>";
+  var income = "<?= $data['income'] ?>";
+  var today_income = "<?= $data['today_income'] ?>";
 
   setInterval(function() {
     if (length > 0) {
@@ -235,6 +234,10 @@ $(document).ready(function() {
     }
     show_date();
   }, 1000 * 60 * 60);
+
+  $("#incentive").on('click', function() {
+    toastr.warning("You are not eligible, please contact customer service");
+  })
 });
 </script>
 
