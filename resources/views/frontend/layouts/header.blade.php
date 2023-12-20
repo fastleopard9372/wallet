@@ -191,8 +191,7 @@
           </div>
         </form>
 
-        <a href="{{ URL::asset('frontend/account/service.html') }}"
-          class="header__connect-icon btn btn--secondary btn--raised btn--sm">
+        <a href="{{route('service')}}" class="header__connect-icon btn btn--secondary btn--raised btn--sm">
           <svg fill="#ffffff" width="18px" height="18px" viewBox="-2.3 0 122.88 122.88" version="1.1" id="Layer_1"
             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
             style="enable-background: new 0 0 118.28 122.88" xml:space="preserve">

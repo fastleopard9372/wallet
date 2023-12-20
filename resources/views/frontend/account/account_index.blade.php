@@ -21,7 +21,7 @@
         <span class="ft12" style="margin-left: 5px"></span>
       </div>
       <div>Account</div>
-      <a href="/investment/account/service.html" class="align_item_center">
+      <a href="{{route('service')}}" class="align_item_center">
         Support&nbsp;
         <svg fill="#ffffff" width="14px" height="14px" viewBox="-2.3 0 122.88 122.88" version="1.1" id="Layer_1"
           xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
