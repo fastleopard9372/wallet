@@ -70,7 +70,7 @@
     <div class="form-control form-control--agree d-flex align-top">
       <input type="checkbox" name="agree" id="agree" value="1" class="custom-checkbox">
       <label for="agree">I agree with <span class="text-bold">Wallet Grow</span> <a href="#">Privacy
-          Police</a> and <a href="#">Terms of
+          Policy</a> and <a href="#">Terms of
           Service</a></label>
 
     </div>

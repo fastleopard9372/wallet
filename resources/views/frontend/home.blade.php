@@ -1,4 +1,4 @@
-@extends('frontend.layouts.master')
+@extends('frontend.layouts.master_home')
 @section('content')
 <main class="main">
   <section class="section section--md relative overflow-hidden !pb-80">

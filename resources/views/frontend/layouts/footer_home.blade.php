@@ -5,7 +5,7 @@
         style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn">
         <div class="footer_logo">
           <a href="#">
-            <img data-src="{{ URL::asset('frontend/img/logo.svg')}}" src="{{ URL::asset('frontend/img/logo.svg')}}"
+            <img data-src="{{ URL::asset('frontend/img/logo.svg') }}" src="{{ URL::asset('frontend/img/logo.svg') }}"
               class="js-img" alt="UniJoin Bitcoin Mixer footer logo" /></a>
         </div>
         <div class="h2" style="margin-bottom: 20px; font-weight: 900; color: #152a54">
@@ -25,7 +25,7 @@
                 </path>
               </svg>
             </a>
-            <a href="https://x.com/Wallet_GrowX?t=FN-JlCx7hgclQ8gVCsa_kw&s=09" class="soc_item" target="_blank">
+            <a href="https://instagram.com/walletgrow_io?igshid=NGsxMWoyeDl1Zmty" class="soc_item" target="_blank">
               <span class="icon-twitter">
                 <svg class="icon">
                   <use xlink:href="{{ URL::asset('frontend/icons/sprite.svg#icons-soc-twitter') }}"></use>
@@ -62,13 +62,13 @@
         style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn">
         <div class="footer_nav">
           <ul>
-            <li><a href="#">Why WalletGrow?</a></li>
             <li><a href="#">Investment</a></li>
-            <li><a href="#">Team Leader</a></li>
+            <li><a href="#">Monitoring</a></li>
+            <li><a href="#">Insurance</a></li>
+            <li><a href="#">Associate</a></li>
             <li><a href="#">Insurance agent</a></li>
-            <li><a href="#">Become a detective</a></li>
+
             <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Blog</a></li>
             <li><a href="#">Terms and conditions </a></li>
             <li><a href="#" target="_blank">About Us</a></li>
             <li><a href="#">FAQ</a></li>
@@ -80,6 +80,6 @@
 
   <div class="footer_copy">@2023 WalletGrow LTD. All rights reserved.</div>
 
-  <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js')}}" async="">
+  <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async="">
   </script>
 </footer>

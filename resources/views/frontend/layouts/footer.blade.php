@@ -61,7 +61,7 @@
       <div class="footer_cols_right wow fadeIn" data-wow-delay="0.4s"
         style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn">
         <div class="footer_nav">
-          <ul>
+          <!-- <ul>
             <li><a href="#">Investment</a></li>
             <li><a href="#">Monitoring</a></li>
             <li><a href="#">Insurance</a></li>
@@ -72,7 +72,7 @@
             <li><a href="#">Terms and conditions </a></li>
             <li><a href="#" target="_blank">About Us</a></li>
             <li><a href="#">FAQ</a></li>
-          </ul>
+          </ul> -->
         </div>
       </div>
     </div>
