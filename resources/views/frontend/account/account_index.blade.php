@@ -17,8 +17,8 @@
     <!-- Header -->
     <div class="account_header">
       <div class="align_item_center">
-        <span id="openNav" style="color: #ffffff"> &#9776; </span>
-        <span class="ft12" style="margin-left: 5px">English</span>
+        <span id="openNav" style="color: #ffffff"> </span>
+        <span class="ft12" style="margin-left: 5px"></span>
       </div>
       <div>Account</div>
       <a href="/investment/account/service.html" class="align_item_center">
@@ -80,8 +80,8 @@
           <img src="{{ URL::asset('frontend/images/wallet/level/bronze.svg') }}" alt="bronze" style="width: 30px" />
         </div>
         <div class="level_name">Bronze</div>
-        <a href="{{route('incentive')}}" class="align_item_center" id="question_btn" aria-label="0"
-          style="margin-left: auto">
+        {{--route('incentive')--}}
+        <a href="javascript:;" class="align_item_center" id="question_btn" aria-label="0" style="margin-left: auto">
           <div>>>Next Level &nbsp;&nbsp;</div>
           <svg version="1.1" id="question_mark" aria-label="0" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" width="25px"
@@ -146,7 +146,7 @@
       </div>
       <div class="transfer">
         <div>Minimum X-wallet transfer 20 coins</div>
-        <a href="/investment#" class="account_btn transfer_btn">Download</a>
+        <a href="{{route('front.wallet_index')}}" class="account_btn transfer_btn">X-Wallet</a>
       </div>
     </div>
 
@@ -182,7 +182,8 @@
         </svg>
         Withdraw
       </a>
-      <a href="{{ route('bankcard') }}" class="option">
+      {{--route('bankcard')--}}
+      <a href="javascript:;" class="option">
         <svg width="12px" height="12px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ffffff" stroke="#ffffff">
           <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -234,7 +235,7 @@
       </div>
       <div>Rebate Record</div>
     </div>
-    <a href="" class="bottom_content">
+    <a href="javascript:;" class="bottom_content">
       <div>
         <img src="{{ URL::asset('frontend/images/account/icon/promotion.svg') }}" alt="promotion" />
       </div>
@@ -280,13 +281,14 @@
       </div>
       <div>Egame Record</div>
     </div>
-    <a href="" class="bottom_content">
+    <a href="javascript:;" class="bottom_content">
       <div>
         <img src="{{ URL::asset('frontend/images/account/icon/profit_record.svg') }}" alt="profit_record" />
       </div>
       <div>Profit Record</div>
     </a>
-    <a href="{{ route('lucky_draw') }}" class="bottom_content">
+    {{--route('lucky_draw')--}}
+    <a href="javascript:;" class="bottom_content">
       <div>
         <img src="{{ URL::asset('frontend/images/account/icon/lucky_draw.svg') }}" alt="lucky_draw" />
       </div>
@@ -298,7 +300,8 @@
   <div class="hline"></div>
 
   <section class="user_info">
-    <a href="{{ route('myinfo') }}" class="user_info_item">
+    {{--route('myinfo')--}}
+    <a href="javascript:;" class="user_info_item">
       <div>
         <img src="{{ URL::asset('frontend/images/account/icon/my_info.svg') }}" alt="my_info" />
       </div>
@@ -310,25 +313,28 @@
       </div>
       <div>Setting</div>
     </div>
-    <a href="{{ route('change_login_password') }}" class="user_info_item">
+    {{--route('change_login_password')--}}
+    <a href="javascript:;" class="user_info_item">
       <div>
         <img src="{{ URL::asset('frontend/images/account/icon/login_password.svg') }}" alt="login_password" />
       </div>
       <div>Password</div>
     </a>
-    <a href="{{route('change_pay_password')}}" class="user_info_item">
+    {{--route('change_pay_password')--}}
+    <a href="javascript:;" class="user_info_item">
       <div>
         <img src="{{ URL::asset('frontend/images/account/icon/fund_password.svg') }}" alt="fund_password" />
       </div>
       <div>Pay Password</div>
     </a>
-    <a href="/investment/account/notice.html" class="user_info_item">
+    <!-- /investment/account/notice.html -->
+    <a href="javascript:;" class="user_info_item">
       <div>
         <img src="{{ URL::asset('frontend/images/account/icon/announcement.svg') }}" alt="announcement" />
       </div>
       <div>Announcement</div>
     </a>
-    <a href="/investment/account/service.html" class="user_info_item">
+    <a href="{{route('service')}}" class="user_info_item">
       <div>
         <img src="{{ URL::asset('frontend/images/account/icon/service.svg') }}" alt="service" />
       </div>

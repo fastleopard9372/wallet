@@ -126,7 +126,7 @@
       </div>
       <div class="transfer">
         <div>Minimum X-wallet transfer 20 coins</div>
-        <a href="#" class="account_btn transfer_btn">Download</a>
+        <a href="{{route('front.wallet_index')}}" class="account_btn transfer_btn">X-Wallet</a>
       </div>
     </div>
   </section>
