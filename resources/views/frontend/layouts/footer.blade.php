@@ -11,12 +11,12 @@
         <div class="h2" style="margin-bottom: 20px; font-weight: 900; color: #152a54">
           <div style="color: #152a54; font-size: 28px; margin-bottom: 2rem">WalletGrow</div>
           Most <span style="color: #68c9fa; font-size: 24px">Innovative</span> and
-          <span style="color: #68c9fa; font-size: 24px">Reliable</span> Crypto Program.
+          <span style="color: #68c9fa; font-size: 24px">Reliable</span> Crypto Earning Program.
         </div>
         <div class="footer_soc">
           <h4>Stay Connected</h4>
           <div class="soc">
-            <a href="/" class="soc_item" target="_blank">
+            <a href="https://t.me/WalletGrow1" class="soc_item" target="_blank">
               <svg class="svg-inline--fa fa-telegram-plane fa-w-14" aria-hidden="true" focusable="false"
                 data-prefix="fab" data-icon="telegram-plane" role="img" xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512" data-fa-i2svg="">
@@ -25,19 +25,20 @@
                 </path>
               </svg>
             </a>
-            <a href="/" class="soc_item" target="_blank">
+            <a href="https://instagram.com/walletgrow_io?igshid=NGsxMWoyeDl1Zmty" class="soc_item" target="_blank">
               <span class="icon-twitter">
                 <svg class="icon">
                   <use xlink:href="{{ URL::asset('frontend/icons/sprite.svg#icons-soc-twitter') }}"></use>
                 </svg>
               </span>
             </a>
-            <a href="/" class="soc_item" target="_blank">
+            <a href="https://www.youtube.com/@walletgrowX" class="soc_item" target="_blank">
               <svg class="icon">
                 <use xlink:href="{{ URL::asset('frontend/icons/sprite.svg#icons-soc-youtube') }}"></use>
               </svg>
             </a>
-            <a href="/" class="soc_item" target="_blank">
+            <a href="https://www.facebook.com/profile.php?id=61553556848909&mibextid=2JQ9oc" class="soc_item"
+              target="_blank">
               <svg class="svg-inline--fa fa-facebook fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab"
                 data-icon="facebook" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
                 data-fa-i2svg="">
@@ -46,7 +47,7 @@
                 </path>
               </svg>
             </a>
-            <a href="/" class="soc_item" target="_blank">
+            <a href="https://www.reddit.com/u/walletgrowX/s/LB8rTKv92Y " class="soc_item" target="_blank">
               <svg class="svg-inline--fa fa-reddit fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab"
                 data-icon="reddit" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
                 <path fill="currentColor"
