@@ -55,20 +55,7 @@
         </svg>
         <span class="ft20" style="color:#111">Trending</span>
       </div>
-      <svg fill="#333333" height="28px" width="28px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 492.066 492.066" xml:space="preserve">
-        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-        <g id="SVGRepo_iconCarrier">
-          <g>
-            <g id="Icons_38_">
-              <path
-                d="M485.128,100.778c-7.25-10.449-19.168-16.69-31.902-16.69H212.607c-8.981,0-16.272,7.288-16.272,16.278 c0,8.987,7.291,16.275,16.272,16.275h240.618c2.051,0,3.99,1,5.167,2.71c1.178,1.685,1.448,3.846,0.731,5.77L414.03,246.495 c-0.906,2.454-3.29,4.108-5.899,4.108H155.277L115.001,78.741c-5.01-21.338-23.812-36.25-45.747-36.25h-44.84 C10.92,42.491,0,53.42,0,66.906C0,80.395,10.92,91.32,24.414,91.32h43.38l54.232,231.405 c4.908,20.918,23.108,35.574,44.474,36.146c-12.56,9.117-20.791,23.812-20.791,40.516c0,27.722,22.46,50.189,50.181,50.189 c27.706,0,50.176-22.468,50.176-50.189c0-16.642-8.198-31.281-20.661-40.412h93.623c-12.481,9.131-20.679,23.77-20.679,40.412 c0,27.722,22.471,50.189,50.175,50.189c27.723,0,50.198-22.468,50.198-50.189c0-16.642-8.204-31.281-20.678-40.412h22.757 c13.495,0,24.416-10.928,24.416-24.415c0-13.486-10.92-24.414-24.416-24.414H169.232l-6.326-26.99h245.226 c16.131,0,30.771-10.164,36.399-25.313l45.11-121.396C494.059,124.523,492.374,111.182,485.128,100.778z">
-              </path>
-            </g>
-          </g>
-        </g>
-      </svg>
+
     </div>
     <div class="selects">
       <div>Crypto Project</div>
@@ -89,40 +76,23 @@
           </g>
         </svg>
         <input type="text" name="searchproject" id="searchproject" style="flex-grow: 1; width: 70%" />
-        <svg fill="#333333" width="20px" height="20px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg"
-          stroke="#333333" class="mr5">
-          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-          <g id="SVGRepo_iconCarrier">
-            <path
-              d="M960.315 96.818c-186.858 0-338.862 152.003-338.862 338.861v484.088c0 186.858 152.004 338.862 338.862 338.862 186.858 0 338.861-152.004 338.861-338.862V435.68c0-186.858-152.003-338.861-338.861-338.861M427.818 709.983V943.41c0 293.551 238.946 532.497 532.497 532.497 293.55 0 532.496-238.946 532.496-532.497V709.983h96.818V943.41c0 330.707-256.438 602.668-580.9 627.471l-.006 252.301h242.044V1920H669.862v-96.818h242.043l-.004-252.3C587.438 1546.077 331 1274.116 331 943.41V709.983h96.818ZM960.315 0c240.204 0 435.679 195.475 435.679 435.68v484.087c0 240.205-195.475 435.68-435.68 435.68-240.204 0-435.679-195.475-435.679-435.68V435.68C524.635 195.475 720.11 0 960.315 0Z"
-              fill-rule="evenodd"></path>
-          </g>
-        </svg>
-        <svg width="20px" height="20px" viewBox="0 -2 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
-          fill="#333333" stroke="#333333" class="mr5">
-          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-          <g id="SVGRepo_iconCarrier">
-            <title>camera</title>
-            <desc>Created with Sketch Beta.</desc>
-            <defs></defs>
-            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-              <g id="Icon-Set" sketch:type="MSLayerGroup" transform="translate(-256.000000, -465.000000)"
-                fill="#333333">
-                <path
-                  d="M272,487 C268.687,487 266,484.313 266,481 C266,477.687 268.687,475 272,475 C275.313,475 278,477.687 278,481 C278,484.313 275.313,487 272,487 L272,487 Z M272,473 C267.582,473 264,476.582 264,481 C264,485.418 267.582,489 272,489 C276.418,489 280,485.418 280,481 C280,476.582 276.418,473 272,473 L272,473 Z M286,489 C286,490.104 285.104,491 284,491 L260,491 C258.896,491 258,490.104 258,489 L258,473 C258,471.896 258.896,471 260,471 L264,471 L265,469 C265.707,467.837 265.896,467 267,467 L277,467 C278.104,467 278.293,467.837 279,469 L280,471 L284,471 C285.104,471 286,471.896 286,473 L286,489 L286,489 Z M284,469 L281,469 L280,467 C279.411,465.837 279.104,465 278,465 L266,465 C264.896,465 264.53,465.954 264,467 L263,469 L260,469 C257.791,469 256,470.791 256,473 L256,489 C256,491.209 257.791,493 260,493 L284,493 C286.209,493 288,491.209 288,489 L288,473 C288,470.791 286.209,469 284,469 L284,469 Z"
-                  id="camera" sketch:type="MSShapeGroup"></path>
-              </g>
-            </g>
-          </g>
-        </svg>
+
       </div>
     </div>
   </section>
 
   <section class="project_main">
+
+    <div class="p10">
+      <div class="project_ad">
+        <img src="{{ URL::asset('frontend/images/project/advertisement/1_1.png') }}" alt="1_1" />
+        <img src="{{ URL::asset('frontend/images/project/advertisement/1_2.png') }}" alt="1_2" />
+        <img src="{{ URL::asset('frontend/images/project/advertisement/1_3.png') }}" alt="1_3" />
+        <img src="{{ URL::asset('frontend/images/project/advertisement/1_4.png') }}" alt="1_4" />
+        <img src="{{ URL::asset('frontend/images/project/advertisement/1_5.png') }}" alt="1_5" />
+        <img src="{{ URL::asset('frontend/images/project/advertisement/1_6.png') }}" alt="1_6" />
+      </div>
+    </div>
     <div class="project_main_header">
       <div class="main_header_marquee">
         <div>Save your Time</div>
@@ -139,17 +109,7 @@
         <div>&#8226;</div>
       </div>
     </div>
-    <div class="p10">
-      <div class="project_ad">
-        <img src="{{ URL::asset('frontend/images/project/advertisement/1_1.png') }}" alt="1_1" />
-        <img src="{{ URL::asset('frontend/images/project/advertisement/1_2.png') }}" alt="1_2" />
-        <img src="{{ URL::asset('frontend/images/project/advertisement/1_3.png') }}" alt="1_3" />
-        <img src="{{ URL::asset('frontend/images/project/advertisement/1_4.png') }}" alt="1_4" />
-        <img src="{{ URL::asset('frontend/images/project/advertisement/1_5.png') }}" alt="1_5" />
-        <img src="{{ URL::asset('frontend/images/project/advertisement/1_6.png') }}" alt="1_6" />
-      </div>
-    </div>
-    <div id="recommends" class="recommends">
+    <div id="recommends" class="recommends" style="margin-top:10px;">
       <a href="{{route('detail_rec')}}">
         <img src="{{ URL::asset('frontend/images/project/products/Recommended.svg') }}" alt="Recommended" />
         <div>Recommend</div>
@@ -582,6 +542,7 @@
 
   <div class="headline">
     <img src="{{ URL::asset('frontend/images/project/headline.jpg') }}" alt="headline" width="100%" />
+    <img src="{{ URL::asset('frontend/images/project/headline1.jpg') }}" alt="headline" width="100%" />
   </div>
 
   <div class="disclaimer">

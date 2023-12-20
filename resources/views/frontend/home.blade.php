@@ -127,19 +127,19 @@
                 </div>
                 <div class="coin-marquee-item">
                   <a class="coin-marquee-item-inner" href="#" title="Stellar">
-                    <div class="coin-marquee-item__icon">
-                      <img src="{{ URL::asset('frontend/images/slide/03.svg') }}" />
+                    <div class="coin-marquee-item__icon" style="padding:5px;">
+                      <img src="{{ URL::asset('frontend/images/slide/1.jpg') }}" style="border-radius:10px;" />
                     </div>
 
                     <div class="coin-marquee-item-info">
                       <div class="coin-marquee-item-info__row">
                         <div class="coin-marquee-item-name">Eyen</div>
-                        <div class="coin-marquee-item-price">From 269$</div>
+                        <div class="coin-marquee-item-price">From 60$</div>
                       </div>
                       <div class="coin-marquee-item-info__row">
                         <div class="coin-marquee-item-symbol">&nbsp;</div>
                         <div class="coin-marquee-item-changes coin-marquee-item-changes--up">
-                          <span class="coin-marquee-item-changes__icon"></span>Upto 2.2%
+                          <span class="coin-marquee-item-changes__icon"></span>Upto 2%
                         </div>
                       </div>
                     </div>
@@ -147,19 +147,19 @@
                 </div>
                 <div class="coin-marquee-item">
                   <a class="coin-marquee-item-inner" href="#" title="Tether USDt">
-                    <div class="coin-marquee-item__icon">
-                      <img src="{{ URL::asset('frontend/images/slide/04.svg') }}" />
+                    <div class="coin-marquee-item__icon" style="padding:5px;">
+                      <img src="{{ URL::asset('frontend/images/slide/2.jpg') }}" style="border-radius:10px;" />
                     </div>
 
                     <div class="coin-marquee-item-info">
                       <div class="coin-marquee-item-info__row">
                         <div class="coin-marquee-item-name">Eggozo Mania</div>
-                        <div class="coin-marquee-item-price">From 0.01 bnb</div>
+                        <div class="coin-marquee-item-price">From 50$</div>
                       </div>
                       <div class="coin-marquee-item-info__row">
                         <div class="coin-marquee-item-symbol">&nbsp;</div>
                         <div class="coin-marquee-item-changes coin-marquee-item-changes--up">
-                          <span class="coin-marquee-item-changes__icon"></span>2.7% - 4.0%
+                          <span class="coin-marquee-item-changes__icon"></span>2.2% - 2.8%
                         </div>
                       </div>
                     </div>
@@ -207,18 +207,18 @@
                 <div class="coin-marquee-item">
                   <a class="coin-marquee-item-inner" href="#" title="Stellar">
                     <div class="coin-marquee-item__icon">
-                      <img src="{{ URL::asset('frontend/images/slide/03.svg') }}" />
+                      <img src="{{ URL::asset('frontend/images/slide/1.jpg') }}" style="border-radius:10px;" />
                     </div>
 
                     <div class="coin-marquee-item-info">
                       <div class="coin-marquee-item-info__row">
                         <div class="coin-marquee-item-name">Eyen</div>
-                        <div class="coin-marquee-item-price">From 269$</div>
+                        <div class="coin-marquee-item-price">From 60$</div>
                       </div>
                       <div class="coin-marquee-item-info__row">
                         <div class="coin-marquee-item-symbol">&nbsp;</div>
                         <div class="coin-marquee-item-changes coin-marquee-item-changes--up">
-                          <span class="coin-marquee-item-changes__icon"></span>Upto 2.2%
+                          <span class="coin-marquee-item-changes__icon"></span>Upto 2%
                         </div>
                       </div>
                     </div>
@@ -226,19 +226,19 @@
                 </div>
                 <div class="coin-marquee-item">
                   <a class="coin-marquee-item-inner" href="#" title="Tether USDt">
-                    <div class="coin-marquee-item__icon">
-                      <img src="{{ URL::asset('frontend/images/slide/04.svg') }}" />
+                    <div class="coin-marquee-item__icon" style="padding:5px;">
+                      <img src="{{ URL::asset('frontend/images/slide/2.jpg') }}" style="border-radius:10px;" />
                     </div>
 
                     <div class="coin-marquee-item-info">
                       <div class="coin-marquee-item-info__row">
                         <div class="coin-marquee-item-name">Eggozo Mania</div>
-                        <div class="coin-marquee-item-price">From 0.01 bnb</div>
+                        <div class="coin-marquee-item-price">From $%</div>
                       </div>
                       <div class="coin-marquee-item-info__row">
                         <div class="coin-marquee-item-symbol">&nbsp;</div>
                         <div class="coin-marquee-item-changes coin-marquee-item-changes--up">
-                          <span class="coin-marquee-item-changes__icon"></span>2.7% - 4.0%
+                          <span class="coin-marquee-item-changes__icon"></span>2.2% - 2.8%
                         </div>
                       </div>
                     </div>
@@ -277,27 +277,27 @@
           </div>
         </div>
         <div class="slidecard">
-          <div class="banner-img">
-            <img src="{{ URL::asset('frontend/images/slide/03.svg') }}" alt="01" />
+          <div class="banner-img" style="padding:10px;">
+            <img src="{{ URL::asset('frontend/images/slide/1.jpg') }}" style="border-radius:10px;" alt="01" />
           </div>
           <div class="card_detail">
             <h3>Eyen</h3>
-            <p>From 269$</p>
+            <p>From 60$</p>
           </div>
           <div class="btn-wrapper">
-            <div class="btn outline">Upto 2.2%</div>
+            <div class="btn outline">Upto 2%</div>
           </div>
         </div>
         <div class="slidecard">
-          <div class="banner-img">
-            <img src="{{ URL::asset('frontend/images/slide/04.svg') }}" alt="01" />
+          <div class="banner-img" style="padding:10px;">
+            <img src="{{ URL::asset('frontend/images/slide/2.jpg') }}" style="border-radius:10px;" alt="01" />
           </div>
           <div class="card_detail">
             <h3>Eggozo mania</h3>
-            <p>From 0.01 bnb</p>
+            <p>From 50$</p>
           </div>
           <div class="btn-wrapper">
-            <div class="btn outline">2.7% ~ 4.0%</div>
+            <div class="btn outline">2.2% ~ 2.8%</div>
           </div>
         </div>
       </div>
