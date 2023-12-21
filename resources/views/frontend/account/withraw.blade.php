@@ -144,7 +144,7 @@
         </div>
       </div>
       <div class="bank_card">
-        <div>Payment Method</div>
+        <div>Enter Your TRC-20 address</div>
         <div>
           <input type="text" name="bank_card_select" id="bank_card_select" placeholder="Select Payment Method" />
         </div>
@@ -163,9 +163,9 @@
       <p class="text-red rule_header text-bold underline">Withdrawal rules:</p>
 
       <ol class="withraw_rule text-red">
-        <li>Minimum withdrawal amount is 5 USDT or 50 TRX.</li>
+        <li>Minimum withdrawal amount is 10 USDT or 100 TRX.</li>
         <li>Withdrawal can be request 24 hours at any time.</li>
-        <li>Arrival timing 5 ~ 55 minutes.</li>
+        <li>Arrival time 5 ~ 55 minutes (Maximum 24 hours )</li>
         <li>Handling fee for USDT withdrawal is 1$ per transaction. For, TRX withdrawal is 1 TRX per transaction.</li>
         <li>Withdrawal Limit for USDT is 5 ~ 10,000. Limit for TRX is 50 ~ 1,00,000 per day.</li>
       </ol>
