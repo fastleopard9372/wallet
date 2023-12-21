@@ -62,16 +62,16 @@
         style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn">
         <div class="footer_nav">
           <ul>
-            <li><a href="#">Investment</a></li>
-            <li><a href="#">Monitoring</a></li>
-            <li><a href="#">Insurance</a></li>
-            <li><a href="#">Associate</a></li>
-            <li><a href="#">Insurance agent</a></li>
+            <li><a href="{{route('front.wallet_index')}}">Investment</a></li>
+            <li><a href="{{ route('front.project') }}">Monitoring</a></li>
+            <li><a href="{{ route('front.insurance')}}">Insurance</a></li>
+            <li><a href="{{route('front.wallet_index')}}">Associate</a></li>
+            <li><a href="{{ route('front.insurance')}}">Insurance agent</a></li>
 
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Terms and conditions </a></li>
-            <li><a href="#" target="_blank">About Us</a></li>
-            <li><a href="#">FAQ</a></li>
+            <li><a href="{{route('service')}}">Contact Us</a></li>
+            <li><a href="javascript:;">Terms and conditions </a></li>
+            <li><a href="{{route('home')}}" target="_blank">About Us</a></li>
+            <li><a href="{{route('service')}}">FAQ</a></li>
           </ul>
         </div>
       </div>

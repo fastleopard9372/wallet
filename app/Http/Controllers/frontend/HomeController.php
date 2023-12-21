@@ -19,7 +19,19 @@ class HomeController extends Controller
     // Home Page
     public function index(Request $request)
     {
-        return view('frontend.home');
+        $wallet_balance = '0.00';
+        if (Auth::guard('web')->check()) {
+            $user_id = Auth::guard('web')->user()->id;
+            $wallet_balance = Wallet::getWallet($user_id);
+            $pledge = Wallet::getPledge($user_id);
+            $dt = Wallet::getIncome($user_id, $pledge);
+            $wallet_balance += $dt['total_income'];
+            $non_pledge = Wallet::getNonPledge($user_id);
+            $dt1 = Wallet::getIncome($user_id, $non_pledge);
+            $wallet_balance += $dt1['total_income'];
+            $wallet_balance = number_format($wallet_balance, 3, '.', ',');
+        }
+        return view('frontend.home', compact('wallet_balance'));
     }
 
     public function project(Request $request)

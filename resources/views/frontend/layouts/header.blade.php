@@ -6,11 +6,19 @@
           class="header__logo" />
       </a>
       <div class="switch_box">
-        <div class="amount">
+        <div class="amount" style="position:relative;height:30px;">
           <span class="leftbtn">
             <img src="{{ URL::asset('frontend/icons/dollar.svg') }}" alt=" left" style="width: 35px; height: 35px" />
           </span>
-          <input type="number" name="amount" id="amount" value="0.00" />
+          <?php
+            $val = '0.00';
+            if (isset($wallet_balance)) {
+              $val = $wallet_balance;
+            }
+            if ($val == 0 || $val == '')
+              $val = '0.00';
+          ?>
+          <span style="position: absolute;right: 23px;color:#68c9fa;">{{$val}}</span>
           <button class="rightbtn">
             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 64 64">
               <linearGradient id="KJ7ka9GQp0CHqT_2YsWMsa_44037_gr1" x1="32" x2="32" y1="5.75" y2="59.005"
