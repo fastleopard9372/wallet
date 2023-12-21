@@ -133,7 +133,7 @@
 
                     <div class="coin-marquee-item-info">
                       <div class="coin-marquee-item-info__row">
-                        <div class="coin-marquee-item-name">Eyen</div>
+                        <div class="coin-marquee-item-name">Global Basket</div>
                         <div class="coin-marquee-item-price">From 60$</div>
                       </div>
                       <div class="coin-marquee-item-info__row">
@@ -153,7 +153,7 @@
 
                     <div class="coin-marquee-item-info">
                       <div class="coin-marquee-item-info__row">
-                        <div class="coin-marquee-item-name">Eggozo Mania</div>
+                        <div class="coin-marquee-item-name">Cen - Trium</div>
                         <div class="coin-marquee-item-price">From 50$</div>
                       </div>
                       <div class="coin-marquee-item-info__row">
@@ -212,7 +212,7 @@
 
                     <div class="coin-marquee-item-info">
                       <div class="coin-marquee-item-info__row">
-                        <div class="coin-marquee-item-name">Eyen</div>
+                        <div class="coin-marquee-item-name">Global Basket</div>
                         <div class="coin-marquee-item-price">From 60$</div>
                       </div>
                       <div class="coin-marquee-item-info__row">
@@ -232,7 +232,7 @@
 
                     <div class="coin-marquee-item-info">
                       <div class="coin-marquee-item-info__row">
-                        <div class="coin-marquee-item-name">Eggozo Mania</div>
+                        <div class="coin-marquee-item-name">Cen - Trium</div>
                         <div class="coin-marquee-item-price">From $%</div>
                       </div>
                       <div class="coin-marquee-item-info__row">
@@ -281,7 +281,7 @@
             <img src="{{ URL::asset('frontend/images/slide/1.jpg') }}" style="border-radius:10px;" alt="01" />
           </div>
           <div class="card_detail">
-            <h3>Eyen</h3>
+            <h3>Global Basket</h3>
             <p>From 60$</p>
           </div>
           <div class="btn-wrapper">
@@ -293,7 +293,7 @@
             <img src="{{ URL::asset('frontend/images/slide/2.jpg') }}" style="border-radius:10px;" alt="01" />
           </div>
           <div class="card_detail">
-            <h3>Eggozo mania</h3>
+            <h3>Cen - Trium</h3>
             <p>From 50$</p>
           </div>
           <div class="btn-wrapper">
@@ -493,14 +493,14 @@
   <section class="section section--md">
     <div class="container">
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-40 items-center">
-        <img src="{{ URL::asset('frontend/images/map.svg') }}" alt="G" width="700" loading="lazy" class="sm:order-last"
-          style="width: 100vw" />
+        <img src="{{ URL::asset('frontend/images/WG Business Map PNG.png') }}" alt="G" width="700" loading="lazy"
+          class="sm:order-last" style="width: 100vw" />
       </div>
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-40 items-center">
-        <img src="{{ URL::asset('frontend/images/phone-5.png')}}" alt="Get WalletGrow" width="700" loading="lazy"
-          class="sm:order-last" />
+
         <div class="xl:pl-80">
           <h2 class="text-primary-h1 font-black mb-8">Your Assets</h2>
+
           <h3 class="text-primary-h3 mb-24">Secured and Anonymous</h3>
           <p class="mb-32 max-w-[32ch]">
             The <mark>WalletGrow</mark> is absolutely centralized system - we ensure full
@@ -512,7 +512,8 @@
     </div>
   </section>
 </main>
-
+<img src="{{ URL::asset('frontend/images/phone.png')}}" alt="Get WalletGrow" width="700" loading="lazy"
+  class="sm:order-last" style="margin:-90px 0;" />
 <div class="section_roadmap">
   <div class="roadmap_title_sticky" style="margin-bottom: 4rem">
     <div class="container" style="background: #fff">

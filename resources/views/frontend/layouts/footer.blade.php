@@ -25,7 +25,7 @@
                 </path>
               </svg>
             </a>
-            <a href="https://instagram.com/walletgrow_io?igshid=NGsxMWoyeDl1Zmty" class="soc_item" target="_blank">
+            <a href="https://x.com/Wallet_GrowX?t=FN-JlCx7hgclQ8gVCsa_kw&s=09" class="soc_item" target="_blank">
               <span class="icon-twitter">
                 <svg class="icon">
                   <use xlink:href="{{ URL::asset('frontend/icons/sprite.svg#icons-soc-twitter') }}"></use>

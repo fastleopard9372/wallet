@@ -57,72 +57,89 @@
         </p>
       </div>
       <div style="width: 40%">
-        <img src="/investment/public/images/account/support/ser.png" alt="service" style="width: 100%" />
+        <img src="{{ URL::asset('frontend/images/account/support/ser.png') }}" alt=" tele" style="width: 30px" />
       </div>
     </div>
     <div class="contact_info">
+      <div></div>
       <div class="contact_item">
         <div class="align_item_center">
-          <img src="/investment/public/images/account/support/round.png" alt="tele" style="width: 30px" />
+          <img src="{{ URL::asset('frontend/images/account/support/round.png') }}" alt=" tele" style="width: 30px" />
           Customer service 1
         </div>
-        <div class="contact">contact</div>
+        <a href="https://t.me/CharlesCS1992">
+          <div class="contact">contact</div>
+        </a>
       </div>
       <div class="contact_item">
         <div class="align_item_center">
-          <img src="/investment/public/images/account/support/round.png" alt="tele" style="width: 30px" />
+          <img src="{{ URL::asset('frontend/images/account/support/round.png') }}" alt=" tele" style="width: 30px" />
           Customer service 2
         </div>
-        <div class="contact">contact</div>
+        <a href="https://t.me/@JoshuaCS1993">
+          <div class="contact">contact</div>
+        </a>
       </div>
       <div class="contact_item">
         <div class="align_item_center">
-          <img src="/investment/public/images/account/support/round.png" alt="tele" style="width: 30px" />
+          <img src="{{ URL::asset('frontend/images/account/support/round.png') }}" alt=" tele" style="width: 30px" />
           Customer service 3
         </div>
-        <div class="contact">contact</div>
+        <a href="https://t.me/@RobertCS1991">
+          <div class="contact">contact</div>
+        </a>
       </div>
       <div class="contact_item">
         <div class="align_item_center">
-          <img src="/investment/public/images/account/support/round.png" alt="tele" style="width: 30px" />
+          <img src="{{ URL::asset('frontend/images/account/support/round.png') }}" alt=" tele" style="width: 30px" />
           Telegram Official chat
         </div>
-        <div class="contact">contact</div>
+        <a href="https://t.me/WalletGrow1">
+          <div class="contact">contact</div>
+        </a>
       </div>
       <div class="contact_item">
         <div class="align_item_center">
-          <img src="/investment/public/images/account/support/round.png" alt="tele" style="width: 30px" />
-          International chat
+          <img src="{{ URL::asset('frontend/images/account/support/round.png') }}" alt=" tele" style="width: 30px" />
+          Telegram Official Channel
         </div>
-        <div class="contact">contact</div>
+        <a href="https://t.me/WalletGrowX">
+          <div class="contact">contact</div>
+        </a>
       </div>
 
       <div style="margin-top: 40px">
         <div class="contact_item">
           <div class="align_item_center">
-            <img src="/investment/public/images/account/support/messanger.svg" alt="tele" style="width: 30px" />
+            <img src="{{ URL::asset('frontend/images/account/support/messanger.svg') }}" alt="tele"
+              style="width: 30px" />
             Customer service 1
           </div>
-          <div class="contact">contact</div>
+          <a href="https://www.facebook.com/WalletGrowX?mibextid=2JQ9oc">
+            <div class="contact">contact</div>
+          </a>
         </div>
         <div class="contact_item">
           <div class="align_item_center">
-            <img src="/investment/public/images/account/support/instagram.svg" alt="tele" style="width: 30px" />
+            <img src="{{ URL::asset('frontend/images/account/support/instagram.svg') }}" alt="tele"
+              style="width: 30px" />
             Customer service 1
           </div>
-          <div class="contact">contact</div>
+          <a href="https://www.instagram.com/walletgrow_io?igshid=OGQ5ZDc2ODk2ZA==">
+            <div class="contact">contact</div>
+          </a>
         </div>
       </div>
     </div>
     <div class="follow_us">
       Follow us:
       <div class="socials">
-        <div><img src="/investment/public/images/account/support/telegram.svg" alt="telegram" /></div>
-        <div><img src="/investment/public/images/account/support/instagram.svg" alt="instagram" /></div>
-        <div><img src="/investment/public/images/account/support/facebook.svg" alt="facebook" /></div>
-        <div><img src="/investment/public/images/account/support/x.svg" alt="twitter" /></div>
-        <div><img src="/investment/public/images/account/support/youtube.svg" alt="youtube" /></div>
-        <div><img src="/investment/public/images/account/support/discord.svg" alt="discord" /></div>
+        <div><img src="{{ URL::asset('frontend/images/account/support/telegram.svg')}}" alt="telegram" /></div>
+        <div><img src="{{ URL::asset('frontend/images/account/support/instagram.svg')}}" alt="instagram" /></div>
+        <div><img src="{{ URL::asset('frontend/images/account/support/facebook.svg')}}" alt="facebook" /></div>
+        <div><img src="{{ URL::asset('frontend/images/account/support/x.svg')}}" alt="twitter" /></div>
+        <div><img src="{{ URL::asset('frontend/images/account/support/youtube.svg')}}" alt="youtube" /></div>
+        <div><img src="{{ URL::asset('frontend/images/account/support/discord.svg') }}" alt="discord" /></div>
       </div>
     </div>
   </section>
