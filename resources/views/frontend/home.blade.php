@@ -47,7 +47,7 @@
 
         <div class="welcome_img wow fadeIn" data-wow-delay="0.5s"
           style="visibility: visible; animation-delay: 0.5s; animation-name: fadeIn">
-          <div class="welcome_img_in">
+          <div class="welcome_img_in" style="height:143px;">
             <img src="{{ URL::asset('frontend/img/header2.gif') }}"
               alt="Bitcoin Mixing graphic making Bitcoin transactions anonymous" data-xblocker="passed"
               style="visibility: visible" />

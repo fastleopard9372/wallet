@@ -3,9 +3,9 @@
 
 <head>
   <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <!--<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">-->
   <!-- <link href="{{ URL::asset('frontend/css/main.css') }}" rel="stylesheet" /> -->
   <link rel="stylesheet" href="{{ URL::asset('frontend/css/wallet/wallet.css') }}" />
   <link rel="stylesheet" href="{{ URL::asset('frontend/css/mobile_navbar.css') }}" />
@@ -49,7 +49,7 @@
     <h3>IN</h3>
   </header>
 
-  <form method="post" id="wallet_index_form">
+  <form action="{{route('front.wallet_index')}}" method="post" id="wallet_index_form">
     @csrf
     <section class="total">
       <div>Total Coin(COIN.)</div>
@@ -240,11 +240,13 @@ $(document).ready(function() {
       $("#transfer_coin").focus();
       return;
     }
-    if (tc * 1 < 0) {
+    if (tc * 1 <= 0) {
       toastr.warning("zero balance");
       $("#transfer_coin").focus();
       return;
     }
+    // $("#wallet_index_form").submit();
+    // return;
     $.ajax({
       url: "{{route('front.wallet_index')}}",
       data: {
@@ -255,12 +257,16 @@ $(document).ready(function() {
       },
       type: "POST",
       success: function(response) {
+        console.log(response);
         if (response.status == 'error') {
           $("#email_error").text(response.message);
         } else {
           $("#email_error").text("");
           location.href = "{{route('front.wallet_index')}}";
         }
+      },
+      error: function(data) {
+        console.log(data);
       }
     });
   });

@@ -47,19 +47,19 @@ class WalletController extends Controller
 				$pledge = Wallet::getPledge($user_id);
 				$dt = Wallet::getIncome($user_id, $pledge);
 				$data['wallet_balance'] += $dt['total_income'];
-				$data['today_income'] = number_format($dt['today_income'], 3, '.', ',');
-				$data['total_income'] = number_format($dt['total_income'], 3, '.', ',');
-				$data['month_income'] = number_format($dt['month_income'], 3, '.', ',');
-				$data['income'] = number_format($dt['income'], 3, '.', ',');
+				$data['today_income'] = number_format($dt['today_income'], 3, '.', '');
+				$data['total_income'] = number_format($dt['total_income'], 3, '.', '');
+				$data['month_income'] = number_format($dt['month_income'], 3, '.', '');
+				$data['income'] = number_format($dt['income'], 3, '.', '');
 
 				$non_pledge = Wallet::getNonPledge($user_id);
 				$dt1 = Wallet::getIncome($user_id, $non_pledge);
 				$data['wallet_balance'] += $dt1['total_income'];
-				$data['wallet_balance'] = number_format($data['wallet_balance'], 3, '.', ',');
-				$data['today_income'] += number_format($dt1['today_income'], 3, '.', ',');
-				$data['total_income'] += number_format($dt1['total_income'], 3, '.', ',');
-				$data['month_income'] += number_format($dt1['month_income'], 3, '.', ',');
-				$data['income'] += number_format($dt1['income'], 3, '.', ',');
+				$data['wallet_balance'] = number_format($data['wallet_balance'], 3, '.', '');
+				$data['today_income'] += number_format($dt1['today_income'], 3, '.', '');
+				$data['total_income'] += number_format($dt1['total_income'], 3, '.', '');
+				$data['month_income'] += number_format($dt1['month_income'], 3, '.', '');
+				$data['income'] += number_format($dt1['income'], 3, '.', '');
 
 				$data['length'] = count($pledge) * 1 + count($non_pledge);
 
@@ -84,11 +84,11 @@ class WalletController extends Controller
 
 			$dt = Wallet::getIncome($user_id, $data['pledge']);
 			$data['wallet_balance'] += $dt['total_income'];
-			$data['wallet_balance'] = number_format($data['wallet_balance'], 3, '.', ',');
-			$data['today_income'] = number_format($dt['today_income'], 3, '.', ',');
-			$data['total_income'] = number_format($dt['total_income'], 3, '.', ',');
-			$data['month_income'] = number_format($dt['month_income'], 3, '.', ',');
-			$data['income'] = number_format($dt['income'], 3, '.', ',');
+			$data['wallet_balance'] = number_format($data['wallet_balance'], 3, '.', '');
+			$data['today_income'] = number_format($dt['today_income'], 3, '.', '');
+			$data['total_income'] = number_format($dt['total_income'], 3, '.', '');
+			$data['month_income'] = number_format($dt['month_income'], 3, '.', '');
+			$data['income'] = number_format($dt['income'], 3, '.', '');
 			return view('frontend.wallet.pledge', compact('data'));
 		} else {
 			return redirect()->route('front.signin')->with('error', 'Please login first');
@@ -131,11 +131,11 @@ class WalletController extends Controller
 
 			$dt = Wallet::getIncome($user_id, $data['non_pledge']);
 			$data['wallet_balance'] += $dt['total_income'];
-			$data['wallet_balance'] = number_format($data['wallet_balance'], 3, '.', ',');
-			$data['today_income'] = number_format($dt['today_income'], 3, '.', ',');
-			$data['total_income'] = number_format($dt['total_income'], 3, '.', ',');
-			$data['month_income'] = number_format($dt['month_income'], 3, '.', ',');
-			$data['income'] = number_format($dt['income'], 3, '.', ',');
+			$data['wallet_balance'] = number_format($data['wallet_balance'], 3, '.', '');
+			$data['today_income'] = number_format($dt['today_income'], 3, '.', '');
+			$data['total_income'] = number_format($dt['total_income'], 3, '.', '');
+			$data['month_income'] = number_format($dt['month_income'], 3, '.', '');
+			$data['income'] = number_format($dt['income'], 3, '.', '');
 			return view('frontend.wallet.non_pledge', compact('data'));
 		} else {
 			return redirect()->route('front.signin')->with('error', 'Please login first');
