@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   <link rel="stylesheet" href="{{ URL::asset('frontend/css/slick-theme.css') }}" />
@@ -16,7 +16,7 @@
 
 <body>
   <section class="detail_rec_nav">
-    <a href="{{ route('project') }}" style="display: flex; align-items: center">
+    <a href="{{ route('front.project') }}" style="display: flex; align-items: center">
       <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
         stroke="#ffffff">
         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -282,11 +282,13 @@
     <br />
     If you scared about working above any projects, don't worry. Wallet Grow developed a system for those kind of
     investors to earn money for long term without any risks. Which is called <a
-      href="{{route('wallet_index')}}">"X-wallet"</a>,
-    powered by wallet grow. You can directly invest your funds to <a href="{{route('wallet_index')}}">X-wallet</a>,
+      href="{{route('front.wallet_index')}}">"X-wallet"</a>,
+    powered by wallet grow. You can directly invest your funds to <a
+      href="{{route('front.wallet_index')}}">X-wallet</a>,
     Wallet Grow team
     will invest your funds to various crypto sectors and our team will take over time and risks management. Daily
-    income can be withdrawn at any time. <a href="{{route('wallet_index')}}">X-wallet</a> is high trusted and reliable
+    income can be withdrawn at any time. <a href="{{route('front.wallet_index')}}">X-wallet</a> is high trusted and
+    reliable
     program.
   </div>
 
@@ -319,7 +321,7 @@
           </a>
         </li>
         <li class="mobile_item_active">
-          <a href="{{ route('project') }}">
+          <a href="{{ route('front.project') }}">
             <svg fill="#636363" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
               xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="20px" viewBox="0 0 47 47"
               xml:space="preserve">
@@ -359,7 +361,7 @@
           </a>
         </li>
         <li>
-          <a href="{{route('wallet_index')}}">
+          <a href="{{route('front.wallet_index')}}">
             <svg version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
               width="20px" height="20px" viewBox="0 0 450 450" xml:space="preserve" fill="#636363"
               style="text-align: center">
@@ -385,7 +387,7 @@
           </a>
         </li>
         <li>
-          <a href="{{ route('insurance')}}">
+          <a href="{{ route('front.insurance')}}">
             <svg fill="#636363" width="20px" height="20px" viewBox="-3 0 19 19" xmlns="http://www.w3.org/2000/svg"
               class="cf-icon-svg">
               <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -400,7 +402,7 @@
           </a>
         </li>
         <li>
-          <a href="{{route('account')}}">
+          <a href="{{route('front.account')}}">
             <svg width="20px" height="20px" viewBox="0 0 24 24" id="Layer_1" data-name="Layer 1"
               xmlns="http://www.w3.org/2000/svg" fill="#636363">
               <g id="SVGRepo_bgCarrier" stroke-width="0"></g>

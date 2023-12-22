@@ -212,7 +212,7 @@
 
   <!-- Bottom block -->
   <section class="bottom_block">
-    <a href="{{ route('message') }}" class="bottom_content">
+    <a href="javascript:;" class="bottom_content">
       <div>
         <img src="{{ URL::asset('frontend/images/account/icon/message.svg') }}" alt="message" />
       </div>
@@ -341,7 +341,7 @@
       </div>
       <div>Service</div>
     </a>
-    <a href="{{route('about_us')}}" class="user_info_item">
+    <a href="{{route('home')}}" class="user_info_item">
       <div>
         <img src="{{ URL::asset('frontend/images/account/icon/about_us.svg') }}" alt="about_us" />
       </div>
