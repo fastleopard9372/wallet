@@ -27,6 +27,7 @@ class WalletController extends Controller
 				$account->from_user = $user_id;
 				$wallet = new Wallet;
 				$wallet->user_id = $user_id;
+
 				$wallet->amount = $request->transfer_coin;
 				if ($request->post('kind') == 'out') {
 					$wallet->amount = -$request->transfer_coin;
@@ -62,7 +63,6 @@ class WalletController extends Controller
 				$data['income'] += number_format($dt1['income'], 3, '.', '');
 
 				$data['length'] = count($pledge) * 1 + count($non_pledge);
-
 				return view('frontend.wallet.wallet_index', compact('data'));
 			}
 		} else {
@@ -224,7 +224,7 @@ class WalletController extends Controller
 				->select('wallet_control.id as id', 'wallet_action', 'date', 'income', 'wallet_control.created_at as created_at', 'wallet_control.updated_at')
 				->distinct()
 				->where('wallet_control.user_id', $user_id)
-				->where('kind', 0)
+				// ->where('kind', 0)
 				->selectRaw('sum(amount) as amount')
 				->groupby('wallet_control.id')
 				->orderbyDesc('id')

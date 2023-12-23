@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
@@ -554,11 +554,14 @@
     <br />
     If you scared about working above any projects, don't worry. Wallet Grow developed a system for those kind of
     investors to earn money for long term without any risks. Which is called <a
-      href="/investment/wallet/">"X-wallet"</a>,
-    powered by wallet grow. You can directly invest your funds to <a href="/investment/wallet/">X-wallet</a>, Wallet
+      href="{{route('front.wallet_index')}}">"X-wallet"</a>,
+    powered by wallet grow. You can directly invest your funds to <a
+      href="{{route('front.wallet_index')}}">X-wallet</a>,
+    Wallet
     Grow team
     will invest your funds to various crypto sectors and our team will take over time and risks management. Daily
-    income can be withdrawn at any time. <a href="/investment/wallet/">X-wallet</a> is high trusted and reliable
+    income can be withdrawn at any time. <a href="{{route('front.wallet_index')}}">X-wallet</a> is high trusted and
+    reliable
     program.
   </div>
 

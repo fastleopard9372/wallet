@@ -49,7 +49,7 @@
     <h3>IN</h3>
   </header>
 
-  <form action="{{route('front.wallet_index')}}" method="post" id="wallet_index_form">
+  <form method="post" id="wallet_index_form">
     @csrf
     <section class="total">
       <div>Total Coin(COIN.)</div>
@@ -232,8 +232,9 @@
   crossorigin="anonymous" referrerpolicy="no-referrer" />
 <script>
 $(document).ready(function() {
+  var flag = 0;
   $("#wallet_in_ok").click(function() {
-    var wc = "Auth::guard('web')->user()->total_coins+$totalEarningCoins";
+    var wc = "{{Auth::guard('web')->user()->total_coins+$totalEarningCoins}}";
     var tc = $("#transfer_coin").val();
     if (wc * 1 < tc * 1) {
       toastr.warning("insufficient balance");
@@ -246,29 +247,34 @@ $(document).ready(function() {
       return;
     }
     // $("#wallet_index_form").submit();
-    // return;
-    $.ajax({
-      url: "{{route('front.wallet_index')}}",
-      data: {
-        transfer_coin: $("#transfer_coin").val(),
-        _token: '{{ csrf_token() }}',
-        kind: "in",
-        is_flag: 1
-      },
-      type: "POST",
-      success: function(response) {
-        console.log(response);
-        if (response.status == 'error') {
-          $("#email_error").text(response.message);
-        } else {
-          $("#email_error").text("");
-          location.href = "{{route('front.wallet_index')}}";
+    if (flag == 0) {
+      flag = 1;
+      $.ajax({
+        url: "{{route('front.wallet_index')}}",
+        data: {
+          transfer_coin: $("#transfer_coin").val(),
+          _token: '{{ csrf_token() }}',
+          kind: "in",
+          is_flag: 1
+        },
+        type: "POST",
+        success: function(response) {
+          console.log(response);
+          if (response.status == 'error') {
+            $("#email_error").text(response.message);
+            flag = 0;
+          } else {
+            $("#email_error").text("");
+            location.href = "{{route('front.wallet_index')}}";
+          }
+        },
+        error: function(data) {
+          console.log(data);
         }
-      },
-      error: function(data) {
-        console.log(data);
-      }
-    });
+      });
+    } else {
+      toastr.warning("please waiting...");
+    }
   });
 });
 </script>

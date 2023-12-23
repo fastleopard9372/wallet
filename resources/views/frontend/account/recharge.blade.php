@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   <link rel="stylesheet" href="{{ URL::asset('frontend/css/account/account.css') }}" />
@@ -121,7 +121,7 @@
             </div>
           </div>
           <div>
-            <div class="recharge_number" id="usdt">
+            <div class="recharge_number" style="width:40%;" id="usdt">
               <div id="usdt_btn">
                 USDT <br />
                 <span>TRC-20</span>
@@ -157,7 +157,7 @@
             </div>
           </div>
           <div>
-            <div class="recharge_number" id="trx_btn">
+            <div class="recharge_number" style="width:40%;" id="trx_btn">
               <div id="trx">
                 TRX <br />
                 <span>TRC-20</span>

@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
   <link rel="stylesheet" href="{{ URL::asset('frontend/css/wallet/wallet.css') }}" />
   <link rel="stylesheet" href="{{ URL::asset('frontend/css/mobile_navbar.css') }}" />
@@ -230,6 +230,7 @@
   crossorigin="anonymous" referrerpolicy="no-referrer" />
 <script>
 $(document).ready(function() {
+  var flag = 0;
   $("#wallet_out_ok").click(function() {
     var wc = "{{$wallet_balance}}";
     if ($("#transfer_coin").val() * 1 <= 0 || $("#transfer_coin").val() * 1 > 1 * wc) {
@@ -237,24 +238,30 @@ $(document).ready(function() {
       $("#transfer_coin").focus();
       return;
     }
-    $.ajax({
-      url: "{{route('front.wallet_index')}}",
-      data: {
-        transfer_coin: $("#transfer_coin").val(),
-        _token: '{{ csrf_token() }}',
-        kind: "out",
-        is_flag: 1
-      },
-      type: "POST",
-      success: function(response) {
-        if (response.status == 'error') {
-          $("#email_error").text(response.message);
-        } else {
-          $("#email_error").text("");
-          location.href = "{{route('front.wallet_index')}}";
+    if (flag == 0) {
+      flag = 1;
+      $.ajax({
+        url: "{{route('front.wallet_index')}}",
+        data: {
+          transfer_coin: $("#transfer_coin").val(),
+          _token: '{{ csrf_token() }}',
+          kind: "out",
+          is_flag: 1
+        },
+        type: "POST",
+        success: function(response) {
+          if (response.status == 'error') {
+            $("#email_error").text(response.message);
+            flag = 0;
+          } else {
+            $("#email_error").text("");
+            location.href = "{{route('front.wallet_index')}}";
+          }
         }
-      }
-    });
+      });
+    } else {
+      toastr.warning("Please waiting...");
+    }
   });
 });
 </script>
