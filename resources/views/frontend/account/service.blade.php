@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   <link rel="stylesheet" href="{{ URL::asset('frontend/css/mobile_navbar.css') }}" />
@@ -58,7 +58,7 @@
         </p>
       </div>
       <div style="width: 40%">
-        <img src="{{ URL::asset('frontend/images/account/support/ser.png') }}" alt=" tele" style="width: 30px" />
+        <img src="{{ URL::asset('frontend/images/account/support/ser.png') }}" alt=" tele" style="width: 100%" />
       </div>
     </div>
     <div class="contact_info">

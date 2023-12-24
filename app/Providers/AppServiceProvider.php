@@ -23,5 +23,8 @@ class AppServiceProvider extends ServiceProvider
             $this->app['url']->forceRootUrl(env('NGROK_URL'));
         }
         // other code
+        if ($this->app->environment('production')) {
+            $this->app['request']->server->set('HTTPS', 'on');
+        }
     }
 }

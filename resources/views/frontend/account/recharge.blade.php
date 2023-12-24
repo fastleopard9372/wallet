@@ -112,74 +112,78 @@
         Online Recharges
       </div>
       <div class="online_recharges">
-        <div class="online_recharge">
-          <div>
-            <img src="{{ URL::asset('frontend/images/account/Tether.gif') }}" alt="Tether" style="width: 40px" />
-            <div class="recharge_badge">
-              FAST PAY 1
-              <div class="caret"></div>
-            </div>
-          </div>
-          <div>
-            <div class="recharge_number" style="width:40%;" id="usdt">
-              <div id="usdt_btn">
-                USDT <br />
-                <span>TRC-20</span>
+        <div class="online_recharge" id="usdt">
+          <div id="usdt_btn">
+            <div>
+              <img src="{{ URL::asset('frontend/images/account/Tether.gif') }}" alt="Tether" style="width: 40px" />
+              <div class="recharge_badge">
+                FAST PAY 1
+                <div class="caret"></div>
               </div>
             </div>
-            <div class="recharge_detail">
-              <div>
-                <p class="text-red">
-                  After payment success, please return to the pages fill in the Transaction Hash correctly.
-                </p>
-                <p>Limit USDT: <span>10</span>~<span>10,000</span></p>
+            <div style="display: flex; align-items: center; padding: 14px 0;">
+              <div class="recharge_number" style="width:40%;">
+                <div>
+                  USDT <br />
+                  <span>TRC-20</span>
+                </div>
               </div>
-              <div>
-                <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                  stroke="#333333">
-                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                  <g id="SVGRepo_iconCarrier">
-                    <path d="M10 7L15 12L10 17" stroke="#333333" stroke-width="1.5" stroke-linecap="round"
-                      stroke-linejoin="round"></path>
-                  </g>
-                </svg>
+              <div class="recharge_detail">
+                <div>
+                  <p class="text-red">
+                    After payment success, please return to the pages fill in the Transaction Hash correctly.
+                  </p>
+                  <p>Limit USDT: <span>10</span>~<span>10,000</span></p>
+                </div>
+                <div>
+                  <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    stroke="#333333">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path d="M10 7L15 12L10 17" stroke="#333333" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                    </g>
+                  </svg>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="online_recharge">
-          <div>
-            <img src="{{ URL::asset('frontend/images/account/TRX.gif') }}" alt="TRX" style="width: 40px" />
-            <div class="recharge_badge">
-              FAST PAY 2
-              <div class="caret"></div>
-            </div>
-          </div>
-          <div>
-            <div class="recharge_number" style="width:40%;" id="trx_btn">
-              <div id="trx">
-                TRX <br />
-                <span>TRC-20</span>
+        <div class="online_recharge" id="trx_btn">
+          <div id="trx">
+            <div>
+              <img src="{{ URL::asset('frontend/images/account/TRX.gif') }}" alt="TRX" style="width: 40px" />
+              <div class="recharge_badge">
+                FAST PAY 2
+                <div class="caret"></div>
               </div>
             </div>
-            <div class="recharge_detail">
-              <div>
-                <p class="text-red">
-                  After payment success, please return to the pages fill in the Transaction Hash correctly.
-                </p>
-                <p>Limit TRX: <span>100</span>~<span>100,000</span></p>
+            <div style="display: flex; align-items: center; padding: 14px 0;">
+              <div class="recharge_number" style="width:40%;">
+                <div>
+                  TRX <br />
+                  <span>TRC-20</span>
+                </div>
               </div>
-              <div>
-                <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                  stroke="#333333">
-                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                  <g id="SVGRepo_iconCarrier">
-                    <path d="M10 7L15 12L10 17" stroke="#333333" stroke-width="1.5" stroke-linecap="round"
-                      stroke-linejoin="round"></path>
-                  </g>
-                </svg>
+              <div class="recharge_detail">
+                <div>
+                  <p class="text-red">
+                    After payment success, please return to the pages fill in the Transaction Hash correctly.
+                  </p>
+                  <p>Limit TRX: <span>100</span>~<span>100,000</span></p>
+                </div>
+                <div>
+                  <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    stroke="#333333">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path d="M10 7L15 12L10 17" stroke="#333333" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                    </g>
+                  </svg>
+                </div>
               </div>
             </div>
           </div>
@@ -272,7 +276,6 @@
 
         }
         // console.log(response);
-
       }
     });
   }

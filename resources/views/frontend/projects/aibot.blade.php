@@ -29,45 +29,6 @@
       </svg>
       <span class="ml10">Back</span>
     </a>
-    <div class="detail_rec_nav_icons">
-      <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-        stroke="#000000">
-        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-        <g id="SVGRepo_iconCarrier">
-          <path
-            d="M15.7955 15.8111L21 21M18 10.5C18 14.6421 14.6421 18 10.5 18C6.35786 18 3 14.6421 3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5Z"
-            stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-        </g>
-      </svg>
-      <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-        <g id="SVGRepo_iconCarrier">
-          <path
-            d="M8 5C8 2.79086 9.79086 1 12 1C14.2091 1 16 2.79086 16 5V12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12V5Z"
-            fill="#ffffff"></path>
-          <path
-            d="M6.25 11.8438V12C6.25 13.525 6.8558 14.9875 7.93414 16.0659C9.01247 17.1442 10.475 17.75 12 17.75C13.525 17.75 14.9875 17.1442 16.0659 16.0659C17.1442 14.9875 17.75 13.525 17.75 12V11.8438C17.75 11.2915 18.1977 10.8438 18.75 10.8438H19.25C19.8023 10.8438 20.25 11.2915 20.25 11.8437V12C20.25 14.188 19.3808 16.2865 17.8336 17.8336C16.5842 19.0831 14.9753 19.8903 13.25 20.1548V22C13.25 22.5523 12.8023 23 12.25 23H11.75C11.1977 23 10.75 22.5523 10.75 22V20.1548C9.02471 19.8903 7.41579 19.0831 6.16637 17.8336C4.61919 16.2865 3.75 14.188 3.75 12V11.8438C3.75 11.2915 4.19772 10.8438 4.75 10.8438H5.25C5.80228 10.8438 6.25 11.2915 6.25 11.8438Z"
-            fill="#ffffff"></path>
-        </g>
-      </svg>
-      <svg fill="#ffffff" width="20px" height="20px" viewBox="0 0 24 24" id="3793e727-e93b-490e-b0f8-a3cbbd02a3c2"
-        data-name="Livello 1" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
-        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-        <g id="SVGRepo_iconCarrier">
-          <title>prime</title>
-          <g id="0ae23c62-20d0-4480-afe0-4ecdc1333c09" data-name="cart">
-            <path
-              d="M22.82,5H7L6.19,1.76a1,1,0,0,0-1-.76H0V5H3L4.72,15.33a2,2,0,0,0,2,1.67H20.31a2,2,0,0,0,2-1.67l1.53-9.16A1,1,0,0,0,22.82,5Z">
-            </path>
-            <circle cx="7.5" cy="20.5" r="2.5"></circle>
-            <circle cx="19.5" cy="20.5" r="2.5"></circle>
-          </g>
-        </g>
-      </svg>
-    </div>
   </section>
 
   <div class="detail_rec_result">
@@ -75,182 +36,182 @@
   </div>
 
   <section class="detail_rec">
-    <div>
+    <a href="{{route('projects.royalq')}}">
       <img src="{{ URL::asset('frontend/images/project/aibot/01.png')}}" alt="ai_bot_01" />
       <h4>Royal Q</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg')}}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.cointech2u_bot')}}">
       <img src="{{ URL::asset('frontend/images/project/aibot/02.png')}}" alt="ai_bot_02" />
       <h4>CoinTech2u</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg')}}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.tat_space')}}">
       <img src="{{ URL::asset('frontend/images/project/aibot/03.png')}}" alt="ai_bot_03" />
       <h4>tat Space</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg')}}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.pionex')}}">
       <img src="{{ URL::asset('frontend/images/project/aibot/04.png')}}" alt="ai_bot_04" />
       <h4>Pionex</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg')}}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.arbitrage_scanner')}}">
       <img src="{{ URL::asset('frontend/images/project/aibot/05.png')}}" alt="ai_bot_05" />
       <h4 class="ft14">Arbitrage Scanner</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg')}}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.tradeSanta')}}">
       <img src="{{ URL::asset('frontend/images/project/aibot/06.png')}}" alt="ai_bot_06" />
       <h4>TradeSanta</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg')}}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.zigdao')}}">
       <img src="{{ URL::asset('frontend/images/project/aibot/07.png')}}" alt="ai_bot_07" />
       <h4>ZIGDAO</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg')}}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.smard')}}">
       <img src="{{ URL::asset('frontend/images/project/aibot/08.png')}}" alt="ai_bot_08" />
       <h4>Smard</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg')}}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.coin_rules')}}">
       <img src="{{ URL::asset('frontend/images/project/aibot/09.png')}}" alt="ai_bot_09" />
       <h4>Coin Rules</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg')}}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.crypto_hopper')}}">
       <img src="{{ URL::asset('frontend/images/project/aibot/10.png')}}" alt="ai_bot_10" />
       <h4>Crypto Hopper</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg')}}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.cornix')}}">
       <img src="{{ URL::asset('frontend/images/project/aibot/11.png')}}" alt="ai_bot_11" />
       <h4>Cornix</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg')}}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.trality')}}">
       <img src="{{ URL::asset('frontend/images/project/aibot/12.png')}}" alt="ai_bot_12" />
       <h4>Trality</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg')}}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.threecommas')}}">
       <img src="{{ URL::asset('frontend/images/project/aibot/13.png')}}" alt="ai_bot_13" />
       <h4>3commas</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg')}}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.bots_io')}}">
       <img src="{{ URL::asset('frontend/images/project/aibot/14.png')}}" alt="ai_bot_14" />
       <h4>BOTS IO</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg')}}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.bigul')}}">
       <img src="{{ URL::asset('frontend/images/project/aibot/15.png')}}" alt="ai_bot_15" />
       <h4>Bigul</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg')}}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.u_trading')}}">
       <img src="{{ URL::asset('frontend/images/project/aibot/16.png')}}" alt="ai_bot_16" />
       <h4>U TRADING</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg')}}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.olymp_robot')}}">
       <img src="{{ URL::asset('frontend/images/project/aibot/17.png')}}" alt="ai_bot_17" />
       <h4>Olymp Robot</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg')}}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.gunbot_com')}}">
       <img src="{{ URL::asset('frontend/images/project/aibot/18.png')}}" alt="ai_bot_18" />
       <h4>Gunbot.com</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg')}}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.apollo_bot')}}">
       <img src="{{ URL::asset('frontend/images/project/aibot/19.png')}}" alt="ai_bot_19" />
       <h4>APOLLO BOT</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg')}}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.quadency')}}">
       <img src="{{ URL::asset('frontend/images/project/aibot/20.png')}}" alt="ai_bot_20" />
       <h4>Quadency</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg')}}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.stoic')}}">
       <img src="{{ URL::asset('frontend/images/project/aibot/20.png')}}" alt="ai_bot_20" />
       <h4>Stoic</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg')}}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.kryll')}}">
       <img src="{{ URL::asset('frontend/images/project/aibot/20.png')}}" alt="ai_bot_20" />
       <h4>Kryll</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg')}}" alt="round-right-arrow" />
       </p>
-    </div>
+    </a>
   </section>
 
   <div class="no_more">

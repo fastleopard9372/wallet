@@ -29,45 +29,7 @@
       </svg>
       <span class="ml10">Back</span>
     </a>
-    <div class="detail_rec_nav_icons">
-      <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-        stroke="#000000">
-        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-        <g id="SVGRepo_iconCarrier">
-          <path
-            d="M15.7955 15.8111L21 21M18 10.5C18 14.6421 14.6421 18 10.5 18C6.35786 18 3 14.6421 3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5Z"
-            stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-        </g>
-      </svg>
-      <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-        <g id="SVGRepo_iconCarrier">
-          <path
-            d="M8 5C8 2.79086 9.79086 1 12 1C14.2091 1 16 2.79086 16 5V12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12V5Z"
-            fill="#ffffff"></path>
-          <path
-            d="M6.25 11.8438V12C6.25 13.525 6.8558 14.9875 7.93414 16.0659C9.01247 17.1442 10.475 17.75 12 17.75C13.525 17.75 14.9875 17.1442 16.0659 16.0659C17.1442 14.9875 17.75 13.525 17.75 12V11.8438C17.75 11.2915 18.1977 10.8438 18.75 10.8438H19.25C19.8023 10.8438 20.25 11.2915 20.25 11.8437V12C20.25 14.188 19.3808 16.2865 17.8336 17.8336C16.5842 19.0831 14.9753 19.8903 13.25 20.1548V22C13.25 22.5523 12.8023 23 12.25 23H11.75C11.1977 23 10.75 22.5523 10.75 22V20.1548C9.02471 19.8903 7.41579 19.0831 6.16637 17.8336C4.61919 16.2865 3.75 14.188 3.75 12V11.8438C3.75 11.2915 4.19772 10.8438 4.75 10.8438H5.25C5.80228 10.8438 6.25 11.2915 6.25 11.8438Z"
-            fill="#ffffff"></path>
-        </g>
-      </svg>
-      <svg fill="#ffffff" width="20px" height="20px" viewBox="0 0 24 24" id="3793e727-e93b-490e-b0f8-a3cbbd02a3c2"
-        data-name="Livello 1" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
-        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-        <g id="SVGRepo_iconCarrier">
-          <title>prime</title>
-          <g id="0ae23c62-20d0-4480-afe0-4ecdc1333c09" data-name="cart">
-            <path
-              d="M22.82,5H7L6.19,1.76a1,1,0,0,0-1-.76H0V5H3L4.72,15.33a2,2,0,0,0,2,1.67H20.31a2,2,0,0,0,2-1.67l1.53-9.16A1,1,0,0,0,22.82,5Z">
-            </path>
-            <circle cx="7.5" cy="20.5" r="2.5"></circle>
-            <circle cx="19.5" cy="20.5" r="2.5"></circle>
-          </g>
-        </g>
-      </svg>
-    </div>
+
   </section>
 
   <div class="detail_rec_result">
@@ -75,214 +37,219 @@
   </div>
 
   <section class="detail_rec">
-    <div>
+
+    <a href="{{route('projects.eggzomania')}}">
       <img src="{{ URL::asset('frontend/images/project/nft/01.png') }}" alt="start_from_01" />
       <h4>EggZo mania</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg') }}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+
+    <a href="{{route('projects.nine_chronicles')}}">
       <img src="{{ URL::asset('frontend/images/project/nft/02.png') }}" alt="start_from_02" />
       <h4>Nine Chronicles</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg') }}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+
+    <a href="{{route('projects.mobox')}}">
       <img src="{{ URL::asset('frontend/images/project/nft/03.png') }}" alt="start_from_03" />
       <h4>MOBOX</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg') }}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.bnb_mario')}}">
       <img src="{{ URL::asset('frontend/images/project/nft/04.png') }}" alt="start_from_04" />
       <h4>BNB Mario</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg') }}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.timicity')}}">
       <img src="{{ URL::asset('frontend/images/project/nft/05.png') }}" alt="start_from_05" />
       <h4>Timi City</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg') }}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.skyark_chronicles')}}">
       <img src="{{ URL::asset('frontend/images/project/nft/06.png') }}" alt="start_from_06" />
       <h4 class="ft14">SkyArk Chronicles</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg') }}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.xland')}}">
       <img src="{{ URL::asset('frontend/images/project/nft/07.jpg') }}" alt="start_from_07" />
       <h4>XLAND</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg') }}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.eyen')}}">
       <img src="{{ URL::asset('frontend/images/project/nft/08.png') }}" alt="start_from_08" />
       <h4>EYEN</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg') }}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.air_ntfs')}}">
       <img src="{{ URL::asset('frontend/images/project/nft/09.png') }}" alt="start_from_09" />
       <h4>Air ntfs</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg') }}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.tap_fantasy')}}">
       <img src="{{ URL::asset('frontend/images/project/nft/10.png') }}" alt="start_from_10" />
       <h4>Tap Fantasy</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg') }}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+
+    <a href="{{route('projects.alien_worlds')}}">
       <img src="{{ URL::asset('frontend/images/project/nft/11.png') }}" alt="start_from_11" />
       <h4>Alien Worlds</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg') }}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.splinterlands')}}">
       <img src="{{ URL::asset('frontend/images/project/nft/12.png') }}" alt="start_from_12" />
       <h4>Splinterlands</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg') }}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.cryptoblades')}}">
       <img src="{{ URL::asset('frontend/images/project/nft/13.png') }}" alt="start_from_13" />
       <h4>Cryptoblades</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg') }}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.excelsiar')}}">
       <img src="{{ URL::asset('frontend/images/project/nft/14.png') }}" alt="start_from_1" />
       <h4>Arc 8</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg') }}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.axie_infinity')}}">
       <img src="{{ URL::asset('frontend/images/project/nft/15.png') }}" alt="start_from_15" />
       <h4 class="ft14">Axie Infinity - origins</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg') }}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.google_car')}}">
       <img src="{{ URL::asset('frontend/images/project/nft/16.png') }}" alt="start_from_16" />
       <h4>Google Car</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg') }}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.polygonum')}}">
       <img src="{{ URL::asset('frontend/images/project/nft/17.png') }}" alt="start_from_17" />
       <h4>Polygonum</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg') }}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.illuvium')}}">
       <img src="{{ URL::asset('frontend/images/project/nft/18.png') }}" alt="start_from_18" />
       <h4>Illuvium</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg') }}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.wizardia')}}">
       <img src="{{ URL::asset('frontend/images/project/nft/19.png') }}" alt="start_from_19" />
       <h4>Wizardia</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg') }}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+
+    <a href="{{route('projects.sidus_hehoes')}}">
       <img src="{{ URL::asset('frontend/images/project/nft/20.png') }}" alt="start_from_20" />
       <h4>Sidus Hehoes</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg') }}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.gods_unchained')}}">
       <img src="{{ URL::asset('frontend/images/project/nft/21.png') }}" alt="start_from_21" />
       <h4>Gods Unchained</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg') }}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.guildofguardians')}}">
       <img src="{{ URL::asset('frontend/images/project/nft/22.png') }}" alt="start_from_22" />
       <h4>Guild of Guardians</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg') }}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.sandbox_game')}}">
       <img src="{{ URL::asset('frontend/images/project/nft/23.png') }}" alt="start_from_23" />
       <h4>Sandbox Game</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg') }}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.pvu_farmland')}}">
       <img src="{{ URL::asset('frontend/images/project/nft/24.png') }}" alt="start_from_24" />
       <h4>PVU Farmland</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg') }}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.nft_champions')}}">
       <img src="{{ URL::asset('frontend/images/project/nft/25.png') }}" alt="start_from_25" />
       <h4>NFT Champions</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg') }}" alt="round-right-arrow" />
       </p>
-    </div>
-    <div>
+    </a>
+    <a href="{{route('projects.gold_fever')}}">
       <img src="{{ URL::asset('frontend/images/project/nft/26.png') }}" alt="start_from_26" />
       <h4>Gold Fever</h4>
       <p>
         More infomation
         <img src="{{ URL::asset('frontend/images/project/round-right-arrow.svg') }}" alt="round-right-arrow" />
       </p>
-    </div>
+    </a>
   </section>
 
   <div class="no_more">

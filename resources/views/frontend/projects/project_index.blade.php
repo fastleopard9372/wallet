@@ -59,9 +59,9 @@
 
     </div>
     <div class="selects">
-      <div>Crypto Project</div>
-      <div>NFT</div>
-      <div>AI Bot</div>
+      <a href="{{route('projects.detail_rec')}}">Crypto Project</a>
+      <a href="{{route('projects.nft')}}">NFT</a>
+      <a href="{{route('projects.aibot')}}">AI Bot</a>
     </div>
     <div class="search_bar">
       <img src="{{ URL::asset('frontend/images/logo.svg') }}" alt="logo" />
@@ -149,19 +149,29 @@
     </div>
     <div class="sample_product">
       <div>
-        <img src="{{ URL::asset('frontend/images/project/ad2/01.png') }}" alt="ad2_01" />
+        <a href="{{route('projects.cloud_computing')}}">
+          <img src="{{ URL::asset('frontend/images/project/ad2/01.png') }}" alt="ad2_01" />
+        </a>
       </div>
       <div>
-        <img src="{{ URL::asset('frontend/images/project/ad2/02.png') }}" alt="ad2_02" />
+        <a href="{{route('projects.newpoint')}}">
+          <img src="{{ URL::asset('frontend/images/project/ad2/02.png') }}" alt="ad2_02" />
+        </a>
       </div>
       <div>
-        <img src="{{ URL::asset('frontend/images/project/ad2/03.png') }}" alt="ad2_03" />
+        <a href="{{route('projects.eyen')}}">
+          <img src="{{ URL::asset('frontend/images/project/ad2/03.png') }}" alt="ad2_03" />
+        </a>
       </div>
       <div>
-        <img src="{{ URL::asset('frontend/images/project/ad2/04.png') }}" alt="ad2_04" />
+        <a href="{{route('projects.quopi')}}">
+          <img src="{{ URL::asset('frontend/images/project/ad2/04.png') }}" alt="ad2_04" />
+        </a>
       </div>
       <div>
-        <img src="{{ URL::asset('frontend/images/project/ad2/05.png') }}" alt="ad2_05" />
+        <a href="{{route('projects.noreview')}}">
+          <img src="{{ URL::asset('frontend/images/project/ad2/05.png') }}" alt="ad2_05" />
+        </a>
       </div>
     </div>
   </section>
@@ -228,15 +238,24 @@
       <img src="{{ URL::asset('frontend/images/project/budget.png') }}" alt="budget" width="100%" />
     </div>
     <div class="ad_images2">
-      <img src="{{ URL::asset('frontend/images/project/ad2/06.png') }}" alt="sample06" width="80%" />
-      <img src="{{ URL::asset('frontend/images/project/ad2/07.png') }}" alt="sample06" width="80%" />
-      <img src="{{ URL::asset('frontend/images/project/ad2/08.png') }}" alt="sample06" width="80%" />
-      <img src="{{ URL::asset('frontend/images/project/ad2/09.png') }}" alt="sample06" width="80%" />
-      <img src="{{ URL::asset('frontend/images/project/ad2/10.png') }}" alt="sample06" width="80%" />
-      <img src="{{ URL::asset('frontend/images/project/ad2/11.png') }}" alt="sample06" width="80%" />
-      <img src="{{ URL::asset('frontend/images/project/ad2/12.png') }}" alt="sample06" width="80%" />
-      <img src="{{ URL::asset('frontend/images/project/ad2/13.png') }}" alt="sample06" width="80%" />
-      <img src="{{ URL::asset('frontend/images/project/ad2/14.png') }}" alt="sample06" width="80%" />
+      <a href="{{route('projects.foxpay')}}"><img src="{{ URL::asset('frontend/images/project/ad2/06.png') }}"
+          alt="sample06" width="80%" /></a>
+      <a href="{{route('projects.future_trades')}}"><img src="{{ URL::asset('frontend/images/project/ad2/07.png') }}"
+          alt="sample06" width="80%" /></a>
+      <a href="{{route('projects.netmi')}}"><img src="{{ URL::asset('frontend/images/project/ad2/08.png') }}"
+          alt="sample06" width="80%" /></a>
+      <a href="{{route('projects.xedmex')}}"><img src="{{ URL::asset('frontend/images/project/ad2/09.png') }}"
+          alt="sample06" width="80%" /></a>
+      <a href="{{route('projects.charge_spot')}}"><img src="{{ URL::asset('frontend/images/project/ad2/10.png') }}"
+          alt="sample06" width="80%" /></a>
+      <a href="{{route('projects.trade24')}}"><img src="{{ URL::asset('frontend/images/project/ad2/11.png') }}"
+          alt="sample06" width="80%" /></a>
+      <a href="{{route('projects.gminer')}}"><img src="{{ URL::asset('frontend/images/project/ad2/12.png') }}"
+          alt="sample06" width="80%" /></a>
+      <a href="{{route('projects.centrium')}}"><img src="{{ URL::asset('frontend/images/project/ad2/13.png') }}"
+          alt="sample06" width="80%" /></a>
+      <a href="{{route('projects.eggzomania')}}"><img src="{{ URL::asset('frontend/images/project/ad2/14.png') }}"
+          alt="sample06" width="80%" /></a>
     </div>
   </section>
 
@@ -255,36 +274,36 @@
       </svg>
     </div>
     <div class="discount_min">
-      <div>
+      <a href="{{route('projects.memeseason')}}">
         <img src="{{ URL::asset('frontend/images/project/ad2/15.jpg') }}" alt="15" width="100%" />
         <h3>Meme Season</h3>
         <div>Min 50% Cashback</div>
-      </div>
-      <div>
+      </a>
+      <a href="{{route('projects.nexium')}}">
         <img src="{{ URL::asset('frontend/images/project/ad2/16.jpg') }}" alt="16" width="100%" />
         <h3>Nexium</h3>
         <div>Start from 5$</div>
-      </div>
-      <div>
+      </a>
+      <a href="{{route('projects.banterbits')}}">
         <img src="{{ URL::asset('frontend/images/project/ad2/17.jpg') }}" alt="15" width="100%" />
         <h3>Banter bits</h3>
         <div>Start from 5$</div>
-      </div>
-      <div>
+      </a>
+      <a href="{{route('projects.bitlotto')}}">
         <img src="{{ URL::asset('frontend/images/project/ad2/18.jpg') }}" alt="15" width="100%" />
         <h3>Bit Lotto</h3>
         <div>Start From 10$</div>
-      </div>
-      <div>
+      </a>
+      <a href="{{route('projects.planetary_asset')}}">
         <img src="{{ URL::asset('frontend/images/project/ad2/19.jpg') }}" alt="15" width="100%" />
         <h3>Planetary asset</h3>
         <div>Start From 30$</div>
-      </div>
-      <div>
+      </a>
+      <a href="{{route('projects.intelid')}}">
         <img src="{{ URL::asset('frontend/images/project/ad2/20.jpg') }}" alt="15" width="100%" />
         <h3>Intelid</h3>
         <div>Start From 35$</div>
-      </div>
+      </a>
     </div>
   </section>
 
@@ -315,7 +334,7 @@
       </svg>
     </div>
     <div class="rating_list">
-      <div>
+      <a href="{{route('projects.wintonfinance')}}">
         <div class="pos_rel">
           <img src="{{ URL::asset('frontend/images/project/toprated/01.jpg') }}" alt="toprated_01" width="100%" />
           <div class="rating_star">3.5 ⭐</div>
@@ -325,8 +344,8 @@
           <div>Start from 5$</div>
           <div>Earn 3%-5% daily</div>
         </div>
-      </div>
-      <div>
+      </a>
+      <a href="{{route('projects.alien_limited')}}">
         <div class="pos_rel">
           <img src="{{ URL::asset('frontend/images/project/toprated/02.jpg') }}" alt="toprated_02" width="100%" />
           <div class="rating_star">4.1 ⭐</div>
@@ -336,8 +355,8 @@
           <div>Start from 10$</div>
           <div>Earn 2.5%-4.33% daily</div>
         </div>
-      </div>
-      <div>
+      </a>
+      <a href="{{route('projects.city_trade_market')}}">
         <div class="pos_rel">
           <img src="{{ URL::asset('frontend/images/project/toprated/03.jpg') }}" alt="toprated_03" width="100%" />
           <div class="rating_star">4.2 ⭐</div>
@@ -347,8 +366,8 @@
           <div>Start from 10$</div>
           <div>Earn 3%-7% daily</div>
         </div>
-      </div>
-      <div>
+      </a>
+      <a href="{{route('projects.slotsmarket')}}">
         <div class="pos_rel">
           <img src="{{ URL::asset('frontend/images/project/toprated/04.jpg') }}" alt="toprated_04" width="100%" />
           <div class="rating_star">4.7 ⭐</div>
@@ -358,8 +377,8 @@
           <div>Start from 10$</div>
           <div>Earn upto 3.65% daily</div>
         </div>
-      </div>
-      <div>
+      </a>
+      <a href="{{route('projects.galacti_cash')}}">
         <div class="pos_rel">
           <img src="{{ URL::asset('frontend/images/project/toprated/05.jpg') }}" alt="toprated_05" width="100%" />
           <div class="rating_star">3.3 ⭐</div>
@@ -369,8 +388,8 @@
           <div>Start from 20$</div>
           <div>Earn from 6% daily</div>
         </div>
-      </div>
-      <div>
+      </a>
+      <a href="{{route('projects.minebubbl')}}">
         <div class="pos_rel">
           <img src="{{ URL::asset('frontend/images/project/toprated/06.jpg') }}" alt="toprated_06" width="100%" />
           <div class="rating_star">3.5 ⭐</div>
@@ -380,7 +399,7 @@
           <div>Start from 25$</div>
           <div>Earn upto 6.7% daily</div>
         </div>
-      </div>
+      </a>
     </div>
   </section>
 
@@ -397,9 +416,9 @@
 
   <section id="recommend_list" class="recommend_list">
     <div class="recom">
-      <div><img src="{{ URL::asset('frontend/images/project/recommend/recom1.jpg') }}" alt="recom1" width="100%" />
-      </div>
-      <div>
+      <a href="{{route('projects.giogame')}}">
+        <div><img src="{{ URL::asset('frontend/images/project/recommend/recom1.jpg') }}" alt="recom1" width="100%" />
+        </div>
         <h3>Gio Gamer</h3>
         <div>
           <div style="display:flex;">
@@ -415,12 +434,12 @@
           </div>
         </div>
         <div>Start From 10$</div>
-      </div>
+      </a>
     </div>
     <div class="recom">
-      <div><img src="{{ URL::asset('frontend/images/project/recommend/recom2.jpg') }}" alt="recom2" width="100%" />
-      </div>
-      <div>
+      <a href="{{route('projects.royalq')}}">
+        <div><img src="{{ URL::asset('frontend/images/project/recommend/recom2.jpg') }}" alt="recom2" width="100%" />
+        </div>
         <h3>Royal Q Bot</h3>
         <div>
           <div style="display:flex;">
@@ -436,12 +455,12 @@
           </div>
         </div>
         <div>Start From 120$</div>
-      </div>
+      </a>
     </div>
     <div class="recom">
-      <div><img src="{{ URL::asset('frontend/images/project/recommend/recom3.jpg') }}" alt="recom3" width="100%" />
-      </div>
-      <div>
+      <a href="{{route('projects.xland')}}">
+        <div><img src="{{ URL::asset('frontend/images/project/recommend/recom3.jpg') }}" alt="recom3" width="100%" />
+        </div>
         <h3>X - Land</h3>
         <div>
           <div style="display:flex;">
@@ -457,12 +476,12 @@
           </div>
         </div>
         <div>Start From 20$</div>
-      </div>
+      </a>
     </div>
     <div class="recom">
-      <div><img src="{{ URL::asset('frontend/images/project/recommend/recom4.jpg') }}" alt="recom4" width="100%" />
-      </div>
-      <div>
+      <a href="{{route('projects.ufmaa')}}">
+        <div><img src="{{ URL::asset('frontend/images/project/recommend/recom4.jpg') }}" alt="recom4" width="100%" />
+        </div>
         <h3>Ufmaa</h3>
         <div>
           <div style="display:flex;">
@@ -478,12 +497,12 @@
           </div>
         </div>
         <div>Free + investment</div>
-      </div>
+      </a>
     </div>
     <div class="recom bottom_border">
-      <div><img src="{{ URL::asset('frontend/images/project/recommend/recom5.jpg') }}" alt="recom5" width="100%" />
-      </div>
-      <div>
+      <a href="{{route('projects.elixxon')}}">
+        <div><img src="{{ URL::asset('frontend/images/project/recommend/recom5.jpg') }}" alt="recom5" width="100%" />
+        </div>
         <h3>Elixxon</h3>
         <div>
           <div style="display:flex;">
@@ -499,12 +518,12 @@
           </div>
         </div>
         <div>Start From 50$</div>
-      </div>
+      </a>
     </div>
     <div class="recom bottom_border">
-      <div><img src="{{ URL::asset('frontend/images/project/recommend/recom6.jpg') }}" alt="recom6" width="100%" />
-      </div>
-      <div>
+      <a href="{{route('projects.cointech2u_bot')}}">
+        <div><img src="{{ URL::asset('frontend/images/project/recommend/recom6.jpg') }}" alt="recom6" width="100%" />
+        </div>
         <h3>Cointech2u bot</h3>
         <div>
           <div style="display:flex;">
@@ -520,7 +539,7 @@
           </div>
         </div>
         <div>Start From 300$</div>
-      </div>
+      </a>
     </div>
   </section>
 

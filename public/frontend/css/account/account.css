@@ -1133,7 +1133,7 @@ a:active {
 .recharge_badge {
     position: absolute;
     top: 0;
-    right: 20px;
+    left: -51px;
     transform: translateX(100%);
     color: #ffffff;
     background-color: #ff0000;
